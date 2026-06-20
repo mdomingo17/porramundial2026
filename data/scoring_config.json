@@ -1,47 +1,95 @@
 {
-  "version": "capturas-usuario-v1",
+  "version": "capturas-usuario-v2-diferencia-50",
   "mode": "additive",
-  "description": "Puntuación corregida según las capturas compartidas por el usuario; no basada en la web externa.",
+  "description": "Puntuación corregida según las capturas compartidas por el usuario; no basada en la web externa. Incluye ajuste del 50% por desviación de 1 gol en la diferencia de goles.",
   "match_points": {
     "correct_outcome_1x2": 5,
     "correct_goal_difference": 5,
-    "exact_score": 10
+    "exact_score": 10,
+    "goal_difference_deviation_adjustment": {
+      "enabled": true,
+      "max_deviation": 1,
+      "partial_multiplier": 0.5,
+      "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+    }
   },
   "stage_match_points": {
     "group": {
       "correct_outcome_1x2": 5,
       "correct_goal_difference": 5,
-      "exact_score": 10
+      "exact_score": 10,
+      "goal_difference_deviation_adjustment": {
+        "enabled": true,
+        "max_deviation": 1,
+        "partial_multiplier": 0.5,
+        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      }
     },
     "round_of_32": {
       "correct_outcome_1x2": 7,
       "correct_goal_difference": 7,
-      "exact_score": 14
+      "exact_score": 14,
+      "goal_difference_deviation_adjustment": {
+        "enabled": true,
+        "max_deviation": 1,
+        "partial_multiplier": 0.5,
+        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      }
     },
     "round_of_16": {
       "correct_outcome_1x2": 9,
       "correct_goal_difference": 9,
-      "exact_score": 18
+      "exact_score": 18,
+      "goal_difference_deviation_adjustment": {
+        "enabled": true,
+        "max_deviation": 1,
+        "partial_multiplier": 0.5,
+        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      }
     },
     "quarter_final": {
       "correct_outcome_1x2": 12,
       "correct_goal_difference": 12,
-      "exact_score": 24
+      "exact_score": 24,
+      "goal_difference_deviation_adjustment": {
+        "enabled": true,
+        "max_deviation": 1,
+        "partial_multiplier": 0.5,
+        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      }
     },
     "semi_final": {
       "correct_outcome_1x2": 15,
       "correct_goal_difference": 15,
-      "exact_score": 30
+      "exact_score": 30,
+      "goal_difference_deviation_adjustment": {
+        "enabled": true,
+        "max_deviation": 1,
+        "partial_multiplier": 0.5,
+        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      }
     },
     "third_place": {
       "correct_outcome_1x2": 15,
       "correct_goal_difference": 15,
-      "exact_score": 30
+      "exact_score": 30,
+      "goal_difference_deviation_adjustment": {
+        "enabled": true,
+        "max_deviation": 1,
+        "partial_multiplier": 0.5,
+        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      }
     },
     "final": {
       "correct_outcome_1x2": 20,
       "correct_goal_difference": 20,
-      "exact_score": 40
+      "exact_score": 40,
+      "goal_difference_deviation_adjustment": {
+        "enabled": true,
+        "max_deviation": 1,
+        "partial_multiplier": 0.5,
+        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      }
     }
   },
   "group_points": {
