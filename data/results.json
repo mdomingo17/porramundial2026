@@ -1,8 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-06-20T11:55:00+02:00",
-    "source": "Initial static snapshot; GitHub Action can refresh from Sofascore/datafc.",
-    "completed_matches": 32
+    "last_updated": "2026-06-20T12:17:24.251865+00:00",
+    "source": "Sofascore event endpoints via GitHub Actions",
+    "completed_matches": 32,
+    "total_group_matches": 72
   },
   "matches": [
     {
@@ -48,6 +49,90 @@
       "source": "Sofascore snapshot"
     },
     {
+      "match_id": "GA2_czechia_south_africa",
+      "source_id": "66456910",
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home_team": {
+        "name": "Czechia",
+        "code": "CZE",
+        "source": "República Checa"
+      },
+      "away_team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "source": "Sudáfrica"
+      },
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GA2_mexico_south_korea",
+      "source_id": "66456908",
+      "stage": "group",
+      "group": "A",
+      "matchday": 2,
+      "home_team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "source": "México"
+      },
+      "away_team": {
+        "name": "South Korea",
+        "code": "KOR",
+        "source": "Corea del Sur"
+      },
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GA3_czechia_mexico",
+      "source_id": "66456912",
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home_team": {
+        "name": "Czechia",
+        "code": "CZE",
+        "source": "República Checa"
+      },
+      "away_team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "source": "México"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GA3_south_africa_south_korea",
+      "source_id": "66456914",
+      "stage": "group",
+      "group": "A",
+      "matchday": 3,
+      "home_team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "source": "Sudáfrica"
+      },
+      "away_team": {
+        "name": "South Korea",
+        "code": "KOR",
+        "source": "Corea del Sur"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
       "match_id": "GB1_canada_bosnia_and_herzegovina",
       "source_id": "66456916",
       "stage": "group",
@@ -64,27 +149,6 @@
         "source": "Bosnia y Herzegovina"
       },
       "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GD1_united_states_paraguay",
-      "source_id": "66456940",
-      "stage": "group",
-      "group": "D",
-      "matchday": 1,
-      "home_team": {
-        "name": "United States",
-        "code": "USA",
-        "source": "Estados Unidos"
-      },
-      "away_team": {
-        "name": "Paraguay",
-        "code": "PAR",
-        "source": "Paraguay"
-      },
-      "home_goals": 4,
       "away_goals": 1,
       "status": "finished",
       "source": "Sofascore snapshot"
@@ -109,6 +173,90 @@
       "away_goals": 1,
       "status": "finished",
       "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GB2_canada_qatar",
+      "source_id": "66456920",
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home_team": {
+        "name": "Canada",
+        "code": "CAN",
+        "source": "Canadá"
+      },
+      "away_team": {
+        "name": "Qatar",
+        "code": "QAT",
+        "source": "Catar"
+      },
+      "home_goals": 6,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GB2_switzerland_bosnia_and_herzegovina",
+      "source_id": "66456922",
+      "stage": "group",
+      "group": "B",
+      "matchday": 2,
+      "home_team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Suiza"
+      },
+      "away_team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "source": "Bosnia y Herzegovina"
+      },
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GB3_bosnia_and_herzegovina_qatar",
+      "source_id": "66456926",
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home_team": {
+        "name": "Bosnia and Herzegovina",
+        "code": "BIH",
+        "source": "Bosnia y Herzegovina"
+      },
+      "away_team": {
+        "name": "Qatar",
+        "code": "QAT",
+        "source": "Catar"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GB3_switzerland_canada",
+      "source_id": "66456924",
+      "stage": "group",
+      "group": "B",
+      "matchday": 3,
+      "home_team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Suiza"
+      },
+      "away_team": {
+        "name": "Canada",
+        "code": "CAN",
+        "source": "Canadá"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     },
     {
       "match_id": "GC1_brazil_morocco",
@@ -153,6 +301,90 @@
       "source": "Sofascore snapshot"
     },
     {
+      "match_id": "GC2_brazil_haiti",
+      "source_id": "66456932",
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brasil"
+      },
+      "away_team": {
+        "name": "Haiti",
+        "code": "HTI",
+        "source": "Haití"
+      },
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GC2_scotland_morocco",
+      "source_id": "66456934",
+      "stage": "group",
+      "group": "C",
+      "matchday": 2,
+      "home_team": {
+        "name": "Scotland",
+        "code": "SCO",
+        "source": "Escocia"
+      },
+      "away_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "source": "Marruecos"
+      },
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GC3_morocco_haiti",
+      "source_id": "66456938",
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "source": "Marruecos"
+      },
+      "away_team": {
+        "name": "Haiti",
+        "code": "HTI",
+        "source": "Haití"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GC3_scotland_brazil",
+      "source_id": "66456936",
+      "stage": "group",
+      "group": "C",
+      "matchday": 3,
+      "home_team": {
+        "name": "Scotland",
+        "code": "SCO",
+        "source": "Escocia"
+      },
+      "away_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brasil"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
       "match_id": "GD1_australia_turkey",
       "source_id": "66456942",
       "stage": "group",
@@ -174,6 +406,111 @@
       "source": "Sofascore snapshot"
     },
     {
+      "match_id": "GD1_united_states_paraguay",
+      "source_id": "66456940",
+      "stage": "group",
+      "group": "D",
+      "matchday": 1,
+      "home_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "Estados Unidos"
+      },
+      "away_team": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "source": "Paraguay"
+      },
+      "home_goals": 4,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GD2_turkey_paraguay",
+      "source_id": "66456946",
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home_team": {
+        "name": "Turkey",
+        "code": "TUR",
+        "source": "Turquía"
+      },
+      "away_team": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "source": "Paraguay"
+      },
+      "home_goals": 0,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GD2_united_states_australia",
+      "source_id": "66456944",
+      "stage": "group",
+      "group": "D",
+      "matchday": 2,
+      "home_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "Estados Unidos"
+      },
+      "away_team": {
+        "name": "Australia",
+        "code": "AUS",
+        "source": "Australia"
+      },
+      "home_goals": 2,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GD3_paraguay_australia",
+      "source_id": "66456950",
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home_team": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "source": "Paraguay"
+      },
+      "away_team": {
+        "name": "Australia",
+        "code": "AUS",
+        "source": "Australia"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GD3_turkey_united_states",
+      "source_id": "66456948",
+      "stage": "group",
+      "group": "D",
+      "matchday": 3,
+      "home_team": {
+        "name": "Turkey",
+        "code": "TUR",
+        "source": "Turquía"
+      },
+      "away_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "Estados Unidos"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
       "match_id": "GE1_germany_curacao",
       "source_id": "66457070",
       "stage": "group",
@@ -191,27 +528,6 @@
       },
       "home_goals": 7,
       "away_goals": 1,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GF1_netherlands_japan",
-      "source_id": "66456968",
-      "stage": "group",
-      "group": "F",
-      "matchday": 1,
-      "home_team": {
-        "name": "Netherlands",
-        "code": "NED",
-        "source": "Países Bajos"
-      },
-      "away_team": {
-        "name": "Japan",
-        "code": "JPN",
-        "source": "Japón"
-      },
-      "home_goals": 2,
-      "away_goals": 2,
       "status": "finished",
       "source": "Sofascore snapshot"
     },
@@ -237,6 +553,111 @@
       "source": "Sofascore snapshot"
     },
     {
+      "match_id": "GE2_ecuador_curacao",
+      "source_id": "66457076",
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home_team": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "source": "Ecuador"
+      },
+      "away_team": {
+        "name": "Curacao",
+        "code": "CUW",
+        "source": "Curazao"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GE2_germany_ivory_coast",
+      "source_id": "66457074",
+      "stage": "group",
+      "group": "E",
+      "matchday": 2,
+      "home_team": {
+        "name": "Germany",
+        "code": "GER",
+        "source": "Alemania"
+      },
+      "away_team": {
+        "name": "Ivory Coast",
+        "code": "CIV",
+        "source": "Costa de Marfil"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GE3_curacao_ivory_coast",
+      "source_id": "66457080",
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home_team": {
+        "name": "Curacao",
+        "code": "CUW",
+        "source": "Curazao"
+      },
+      "away_team": {
+        "name": "Ivory Coast",
+        "code": "CIV",
+        "source": "Costa de Marfil"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GE3_ecuador_germany",
+      "source_id": "66457078",
+      "stage": "group",
+      "group": "E",
+      "matchday": 3,
+      "home_team": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "source": "Ecuador"
+      },
+      "away_team": {
+        "name": "Germany",
+        "code": "GER",
+        "source": "Alemania"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GF1_netherlands_japan",
+      "source_id": "66456968",
+      "stage": "group",
+      "group": "F",
+      "matchday": 1,
+      "home_team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Países Bajos"
+      },
+      "away_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japón"
+      },
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
       "match_id": "GF1_sweden_tunisia",
       "source_id": "66456970",
       "stage": "group",
@@ -258,25 +679,88 @@
       "source": "Sofascore snapshot"
     },
     {
-      "match_id": "GH1_spain_cape_verde",
-      "source_id": "66456994",
+      "match_id": "GF2_netherlands_sweden",
+      "source_id": "66456972",
       "stage": "group",
-      "group": "H",
-      "matchday": 1,
+      "group": "F",
+      "matchday": 2,
       "home_team": {
-        "name": "Spain",
-        "code": "ESP",
-        "source": "España"
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Países Bajos"
       },
       "away_team": {
-        "name": "Cape Verde",
-        "code": "CPV",
-        "source": "Cabo Verde"
+        "name": "Sweden",
+        "code": "SWE",
+        "source": "Suecia"
       },
-      "home_goals": 0,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "Sofascore snapshot"
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GF2_tunisia_japan",
+      "source_id": "66456974",
+      "stage": "group",
+      "group": "F",
+      "matchday": 2,
+      "home_team": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "source": "Túnez"
+      },
+      "away_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japón"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GF3_japan_sweden",
+      "source_id": "66456978",
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japón"
+      },
+      "away_team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "source": "Suecia"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GF3_tunisia_netherlands",
+      "source_id": "66456976",
+      "stage": "group",
+      "group": "F",
+      "matchday": 3,
+      "home_team": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "source": "Túnez"
+      },
+      "away_team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Países Bajos"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     },
     {
       "match_id": "GG1_belgium_egypt",
@@ -293,27 +777,6 @@
         "name": "Egypt",
         "code": "EGY",
         "source": "Egipto"
-      },
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GH1_saudi_arabia_uruguay",
-      "source_id": "66456996",
-      "stage": "group",
-      "group": "H",
-      "matchday": 1,
-      "home_team": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "source": "Arabia Saudita"
-      },
-      "away_team": {
-        "name": "Uruguay",
-        "code": "URU",
-        "source": "Uruguay"
       },
       "home_goals": 1,
       "away_goals": 1,
@@ -340,6 +803,216 @@
       "away_goals": 2,
       "status": "finished",
       "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GG2_belgium_iran",
+      "source_id": "66456986",
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home_team": {
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Bélgica"
+      },
+      "away_team": {
+        "name": "Iran",
+        "code": "IRI",
+        "source": "Irán"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GG2_new_zealand_egypt",
+      "source_id": "66456988",
+      "stage": "group",
+      "group": "G",
+      "matchday": 2,
+      "home_team": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "source": "Nueva Zelanda"
+      },
+      "away_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "source": "Egipto"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GG3_egypt_iran",
+      "source_id": "66456992",
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "source": "Egipto"
+      },
+      "away_team": {
+        "name": "Iran",
+        "code": "IRI",
+        "source": "Irán"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GG3_new_zealand_belgium",
+      "source_id": "66456990",
+      "stage": "group",
+      "group": "G",
+      "matchday": 3,
+      "home_team": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "source": "Nueva Zelanda"
+      },
+      "away_team": {
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Bélgica"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GH1_saudi_arabia_uruguay",
+      "source_id": "66456996",
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home_team": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "source": "Arabia Saudita"
+      },
+      "away_team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "source": "Uruguay"
+      },
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GH1_spain_cape_verde",
+      "source_id": "66456994",
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home_team": {
+        "name": "Spain",
+        "code": "ESP",
+        "source": "España"
+      },
+      "away_team": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "source": "Cabo Verde"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GH2_spain_saudi_arabia",
+      "source_id": "66456998",
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home_team": {
+        "name": "Spain",
+        "code": "ESP",
+        "source": "España"
+      },
+      "away_team": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "source": "Arabia Saudita"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GH2_uruguay_cape_verde",
+      "source_id": "66457000",
+      "stage": "group",
+      "group": "H",
+      "matchday": 2,
+      "home_team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "source": "Uruguay"
+      },
+      "away_team": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "source": "Cabo Verde"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GH3_cape_verde_saudi_arabia",
+      "source_id": "66457004",
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home_team": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "source": "Cabo Verde"
+      },
+      "away_team": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "source": "Arabia Saudita"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GH3_uruguay_spain",
+      "source_id": "66457002",
+      "stage": "group",
+      "group": "H",
+      "matchday": 3,
+      "home_team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "source": "Uruguay"
+      },
+      "away_team": {
+        "name": "Spain",
+        "code": "ESP",
+        "source": "España"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     },
     {
       "match_id": "GI1_france_senegal",
@@ -384,6 +1057,90 @@
       "source": "Sofascore snapshot"
     },
     {
+      "match_id": "GI2_france_iraq",
+      "source_id": "66457010",
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home_team": {
+        "name": "France",
+        "code": "FRA",
+        "source": "Francia"
+      },
+      "away_team": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "source": "Irak"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GI2_norway_senegal",
+      "source_id": "66457012",
+      "stage": "group",
+      "group": "I",
+      "matchday": 2,
+      "home_team": {
+        "name": "Norway",
+        "code": "NOR",
+        "source": "Noruega"
+      },
+      "away_team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "source": "Senegal"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GI3_norway_france",
+      "source_id": "66457014",
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home_team": {
+        "name": "Norway",
+        "code": "NOR",
+        "source": "Noruega"
+      },
+      "away_team": {
+        "name": "France",
+        "code": "FRA",
+        "source": "Francia"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GI3_senegal_iraq",
+      "source_id": "66457016",
+      "stage": "group",
+      "group": "I",
+      "matchday": 3,
+      "home_team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "source": "Senegal"
+      },
+      "away_team": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "source": "Irak"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
       "match_id": "GJ1_argentina_algeria",
       "source_id": "66457018",
       "stage": "group",
@@ -426,6 +1183,90 @@
       "source": "Sofascore snapshot"
     },
     {
+      "match_id": "GJ2_argentina_austria",
+      "source_id": "66457022",
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home_team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
+      },
+      "away_team": {
+        "name": "Austria",
+        "code": "AUT",
+        "source": "Austria"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GJ2_jordan_algeria",
+      "source_id": "66457024",
+      "stage": "group",
+      "group": "J",
+      "matchday": 2,
+      "home_team": {
+        "name": "Jordan",
+        "code": "JOR",
+        "source": "Jordania"
+      },
+      "away_team": {
+        "name": "Algeria",
+        "code": "DZA",
+        "source": "Argelia"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GJ3_algeria_austria",
+      "source_id": "66457028",
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home_team": {
+        "name": "Algeria",
+        "code": "DZA",
+        "source": "Argelia"
+      },
+      "away_team": {
+        "name": "Austria",
+        "code": "AUT",
+        "source": "Austria"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GJ3_jordan_argentina",
+      "source_id": "66457026",
+      "stage": "group",
+      "group": "J",
+      "matchday": 3,
+      "home_team": {
+        "name": "Jordan",
+        "code": "JOR",
+        "source": "Jordania"
+      },
+      "away_team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
       "match_id": "GK1_portugal_dr_congo",
       "source_id": "66457030",
       "stage": "group",
@@ -445,6 +1286,111 @@
       "away_goals": 1,
       "status": "finished",
       "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GK1_uzbekistan_colombia",
+      "source_id": "66457032",
+      "stage": "group",
+      "group": "K",
+      "matchday": 1,
+      "home_team": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "source": "Uzbekistán"
+      },
+      "away_team": {
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
+      },
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "Sofascore snapshot"
+    },
+    {
+      "match_id": "GK2_colombia_dr_congo",
+      "source_id": "66457036",
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home_team": {
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
+      },
+      "away_team": {
+        "name": "DR Congo",
+        "code": "COD",
+        "source": "RD Congo"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GK2_portugal_uzbekistan",
+      "source_id": "66457034",
+      "stage": "group",
+      "group": "K",
+      "matchday": 2,
+      "home_team": {
+        "name": "Portugal",
+        "code": "POR",
+        "source": "Portugal"
+      },
+      "away_team": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "source": "Uzbekistán"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GK3_colombia_portugal",
+      "source_id": "66457038",
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home_team": {
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
+      },
+      "away_team": {
+        "name": "Portugal",
+        "code": "POR",
+        "source": "Portugal"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
+    },
+    {
+      "match_id": "GK3_dr_congo_uzbekistan",
+      "source_id": "66457040",
+      "stage": "group",
+      "group": "K",
+      "matchday": 3,
+      "home_team": {
+        "name": "DR Congo",
+        "code": "COD",
+        "source": "RD Congo"
+      },
+      "away_team": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "source": "Uzbekistán"
+      },
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     },
     {
       "match_id": "GL1_england_croatia",
@@ -489,194 +1435,88 @@
       "source": "Sofascore snapshot"
     },
     {
-      "match_id": "GK1_uzbekistan_colombia",
-      "source_id": "66457032",
+      "match_id": "GL2_england_ghana",
+      "source_id": "66457046",
       "stage": "group",
-      "group": "K",
-      "matchday": 1,
-      "home_team": {
-        "name": "Uzbekistan",
-        "code": "UZB",
-        "source": "Uzbekistán"
-      },
-      "away_team": {
-        "name": "Colombia",
-        "code": "COL",
-        "source": "Colombia"
-      },
-      "home_goals": 1,
-      "away_goals": 3,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GA2_czechia_south_africa",
-      "source_id": "66456910",
-      "stage": "group",
-      "group": "A",
+      "group": "L",
       "matchday": 2,
       "home_team": {
-        "name": "Czechia",
-        "code": "CZE",
-        "source": "República Checa"
+        "name": "England",
+        "code": "ENG",
+        "source": "Inglaterra"
       },
       "away_team": {
-        "name": "South Africa",
-        "code": "RSA",
-        "source": "Sudáfrica"
+        "name": "Ghana",
+        "code": "GHA",
+        "source": "Ghana"
       },
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "Sofascore snapshot"
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     },
     {
-      "match_id": "GB2_switzerland_bosnia_and_herzegovina",
-      "source_id": "66456922",
+      "match_id": "GL2_panama_croatia",
+      "source_id": "66457048",
       "stage": "group",
-      "group": "B",
+      "group": "L",
       "matchday": 2,
       "home_team": {
-        "name": "Switzerland",
-        "code": "SUI",
-        "source": "Suiza"
+        "name": "Panama",
+        "code": "PAN",
+        "source": "Panamá"
       },
       "away_team": {
-        "name": "Bosnia and Herzegovina",
-        "code": "BIH",
-        "source": "Bosnia y Herzegovina"
+        "name": "Croatia",
+        "code": "CRO",
+        "source": "Croacia"
       },
-      "home_goals": 4,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "Sofascore snapshot"
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     },
     {
-      "match_id": "GB2_canada_qatar",
-      "source_id": "66456920",
+      "match_id": "GL3_croatia_ghana",
+      "source_id": "66457052",
       "stage": "group",
-      "group": "B",
-      "matchday": 2,
+      "group": "L",
+      "matchday": 3,
       "home_team": {
-        "name": "Canada",
-        "code": "CAN",
-        "source": "Canadá"
+        "name": "Croatia",
+        "code": "CRO",
+        "source": "Croacia"
       },
       "away_team": {
-        "name": "Qatar",
-        "code": "QAT",
-        "source": "Catar"
+        "name": "Ghana",
+        "code": "GHA",
+        "source": "Ghana"
       },
-      "home_goals": 6,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "Sofascore snapshot"
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     },
     {
-      "match_id": "GA2_mexico_south_korea",
-      "source_id": "66456908",
+      "match_id": "GL3_panama_england",
+      "source_id": "66457050",
       "stage": "group",
-      "group": "A",
-      "matchday": 2,
+      "group": "L",
+      "matchday": 3,
       "home_team": {
-        "name": "Mexico",
-        "code": "MEX",
-        "source": "México"
+        "name": "Panama",
+        "code": "PAN",
+        "source": "Panamá"
       },
       "away_team": {
-        "name": "South Korea",
-        "code": "KOR",
-        "source": "Corea del Sur"
+        "name": "England",
+        "code": "ENG",
+        "source": "Inglaterra"
       },
-      "home_goals": 1,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GD2_united_states_australia",
-      "source_id": "66456944",
-      "stage": "group",
-      "group": "D",
-      "matchday": 2,
-      "home_team": {
-        "name": "United States",
-        "code": "USA",
-        "source": "Estados Unidos"
-      },
-      "away_team": {
-        "name": "Australia",
-        "code": "AUS",
-        "source": "Australia"
-      },
-      "home_goals": 2,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GC2_scotland_morocco",
-      "source_id": "66456934",
-      "stage": "group",
-      "group": "C",
-      "matchday": 2,
-      "home_team": {
-        "name": "Scotland",
-        "code": "SCO",
-        "source": "Escocia"
-      },
-      "away_team": {
-        "name": "Morocco",
-        "code": "MAR",
-        "source": "Marruecos"
-      },
-      "home_goals": 0,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GC2_brazil_haiti",
-      "source_id": "66456932",
-      "stage": "group",
-      "group": "C",
-      "matchday": 2,
-      "home_team": {
-        "name": "Brazil",
-        "code": "BRA",
-        "source": "Brasil"
-      },
-      "away_team": {
-        "name": "Haiti",
-        "code": "HTI",
-        "source": "Haití"
-      },
-      "home_goals": 3,
-      "away_goals": 0,
-      "status": "finished",
-      "source": "Sofascore snapshot"
-    },
-    {
-      "match_id": "GD2_turkey_paraguay",
-      "source_id": "66456946",
-      "stage": "group",
-      "group": "D",
-      "matchday": 2,
-      "home_team": {
-        "name": "Turkey",
-        "code": "TUR",
-        "source": "Turquía"
-      },
-      "away_team": {
-        "name": "Paraguay",
-        "code": "PAR",
-        "source": "Paraguay"
-      },
-      "home_goals": 0,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "Sofascore snapshot"
+      "home_goals": null,
+      "away_goals": null,
+      "status": "scheduled",
+      "source": "Sofascore GitHub Action"
     }
-  ],
-  "honors": {}
+  ]
 }
