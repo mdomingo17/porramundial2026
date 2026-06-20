@@ -1,7 +1,7 @@
 {
-  "version": "capturas-usuario-v2-diferencia-50",
+  "version": "capturas-usuario-v3-diferencia-50-solo-con-1x2",
   "mode": "additive",
-  "description": "Puntuación corregida según las capturas compartidas por el usuario; no basada en la web externa. Incluye ajuste del 50% por desviación de 1 gol en la diferencia de goles.",
+  "description": "Puntuación corregida según capturas del usuario. El ajuste del 50% por desviación de 1 gol en diferencia solo aplica cuando también se acierta el signo 1X2.",
   "match_points": {
     "correct_outcome_1x2": 5,
     "correct_goal_difference": 5,
@@ -10,7 +10,8 @@
       "enabled": true,
       "max_deviation": 1,
       "partial_multiplier": 0.5,
-      "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+      "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+      "requires_correct_outcome": true
     }
   },
   "stage_match_points": {
@@ -22,7 +23,8 @@
         "enabled": true,
         "max_deviation": 1,
         "partial_multiplier": 0.5,
-        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+        "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+        "requires_correct_outcome": true
       }
     },
     "round_of_32": {
@@ -33,7 +35,8 @@
         "enabled": true,
         "max_deviation": 1,
         "partial_multiplier": 0.5,
-        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+        "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+        "requires_correct_outcome": true
       }
     },
     "round_of_16": {
@@ -44,7 +47,8 @@
         "enabled": true,
         "max_deviation": 1,
         "partial_multiplier": 0.5,
-        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+        "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+        "requires_correct_outcome": true
       }
     },
     "quarter_final": {
@@ -55,7 +59,8 @@
         "enabled": true,
         "max_deviation": 1,
         "partial_multiplier": 0.5,
-        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+        "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+        "requires_correct_outcome": true
       }
     },
     "semi_final": {
@@ -66,7 +71,8 @@
         "enabled": true,
         "max_deviation": 1,
         "partial_multiplier": 0.5,
-        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+        "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+        "requires_correct_outcome": true
       }
     },
     "third_place": {
@@ -77,7 +83,8 @@
         "enabled": true,
         "max_deviation": 1,
         "partial_multiplier": 0.5,
-        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+        "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+        "requires_correct_outcome": true
       }
     },
     "final": {
@@ -88,7 +95,8 @@
         "enabled": true,
         "max_deviation": 1,
         "partial_multiplier": 0.5,
-        "description": "Si la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia de goles. Con desviación de 2 o más, 0%."
+        "description": "Si se acierta el 1X2 y la diferencia de goles predicha se desvía exactamente 1 gol de la real, se concede el 50% de los puntos de diferencia. Si no se acierta el 1X2, este ajuste no aplica.",
+        "requires_correct_outcome": true
       }
     }
   },
