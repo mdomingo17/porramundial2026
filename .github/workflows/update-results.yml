@@ -18,11 +18,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: python -m pip install requests
-
-      - name: Update results from Sofascore
-        run: python scripts/update_sofascore_results.py
+      - name: Update results from ESPN public scoreboard
+        run: python scripts/update_espn_results.py
 
       - name: Commit updated results
         run: |
