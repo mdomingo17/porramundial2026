@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-06-21T10:32:00.847825+00:00",
+    "last_updated": "2026-06-21T10:54:29.600304+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 36,
-    "new_or_changed_matches": 4,
+    "new_or_changed_matches": 0,
     "total_group_matches": 72
   },
   "matches": [
