@@ -1,8 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-06-20T21:50:46.623205+00:00",
-    "source": "Sofascore event endpoints via GitHub Actions",
+    "last_updated": "2026-06-21T10:18:57.070365+00:00",
+    "source": "Sofascore scheduled-events via GitHub Actions",
     "completed_matches": 32,
+    "new_or_changed_matches": 0,
     "total_group_matches": 72
   },
   "matches": [
@@ -109,7 +110,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GA3_south_africa_south_korea",
@@ -130,7 +131,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GB1_canada_bosnia_and_herzegovina",
@@ -235,7 +236,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GB3_switzerland_canada",
@@ -256,7 +257,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GC1_brazil_morocco",
@@ -361,7 +362,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GC3_scotland_brazil",
@@ -382,7 +383,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GD1_australia_turkey",
@@ -487,7 +488,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GD3_turkey_united_states",
@@ -508,7 +509,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GE1_germany_curacao",
@@ -571,7 +572,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GE2_germany_ivory_coast",
@@ -592,7 +593,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GE3_curacao_ivory_coast",
@@ -613,7 +614,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GE3_ecuador_germany",
@@ -634,7 +635,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GF1_netherlands_japan",
@@ -697,7 +698,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GF2_tunisia_japan",
@@ -718,7 +719,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GF3_japan_sweden",
@@ -739,7 +740,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GF3_tunisia_netherlands",
@@ -760,7 +761,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GG1_belgium_egypt",
@@ -823,7 +824,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GG2_new_zealand_egypt",
@@ -844,7 +845,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GG3_egypt_iran",
@@ -865,7 +866,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GG3_new_zealand_belgium",
@@ -886,7 +887,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GH1_saudi_arabia_uruguay",
@@ -949,7 +950,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GH2_uruguay_cape_verde",
@@ -970,7 +971,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GH3_cape_verde_saudi_arabia",
@@ -991,7 +992,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GH3_uruguay_spain",
@@ -1012,7 +1013,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GI1_france_senegal",
@@ -1075,7 +1076,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GI2_norway_senegal",
@@ -1096,7 +1097,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GI3_norway_france",
@@ -1117,7 +1118,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GI3_senegal_iraq",
@@ -1138,7 +1139,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GJ1_argentina_algeria",
@@ -1201,7 +1202,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GJ2_jordan_algeria",
@@ -1222,7 +1223,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GJ3_algeria_austria",
@@ -1243,7 +1244,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GJ3_jordan_argentina",
@@ -1264,7 +1265,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GK1_portugal_dr_congo",
@@ -1327,7 +1328,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GK2_portugal_uzbekistan",
@@ -1348,7 +1349,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GK3_colombia_portugal",
@@ -1369,7 +1370,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GK3_dr_congo_uzbekistan",
@@ -1390,7 +1391,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GL1_england_croatia",
@@ -1453,7 +1454,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GL2_panama_croatia",
@@ -1474,7 +1475,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GL3_croatia_ghana",
@@ -1495,7 +1496,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     },
     {
       "match_id": "GL3_panama_england",
@@ -1516,7 +1517,7 @@
       "home_goals": null,
       "away_goals": null,
       "status": "scheduled",
-      "source": "Sofascore GitHub Action"
+      "source": "Sofascore scheduled-events GitHub Action"
     }
   ]
 }
