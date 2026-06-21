@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-06-21T18:01:53.551663+00:00",
+    "last_updated": "2026-06-21T18:03:49.670723+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 36,
-    "new_or_changed_matches": 0,
+    "completed_matches": 37,
+    "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
   "matches": [
@@ -959,10 +959,11 @@
         "code": "KSA",
         "source": "Arabia Saudita"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 4,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760453"
     },
     {
       "match_id": "GH2_uruguay_cape_verde",
