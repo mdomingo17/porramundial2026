@@ -1,21 +1,29 @@
 name: Update World Cup results
 
 on:
-  schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
+    inputs:
+      keep_alive:
+        description: "Keep polling every 5 minutes"
+        required: false
+        default: "true"
+  schedule:
+    # Backup: starts/restarts the polling loop every 6 hours during June/July.
+    # The real 5-minute cadence is done by workflow_dispatch self-dispatch below.
+    - cron: "11 */6 * 6,7 *"
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: update-world-cup-results
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-results:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -47,3 +55,32 @@ jobs:
           git commit -m "Update World Cup results"
           git pull --rebase
           git push
+
+      - name: Stop after World Cup
+        id: stop_check
+        run: |
+          TODAY="$(date -u +%Y-%m-%d)"
+          if [[ "$TODAY" > "2026-07-20" ]]; then
+            echo "stop=true" >> "$GITHUB_OUTPUT"
+            echo "World Cup period finished. Not scheduling another poll."
+          else
+            echo "stop=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Wait 5 minutes before next poll
+        if: steps.stop_check.outputs.stop == 'false'
+        run: sleep 300
+
+      - name: Trigger next poll
+        if: steps.stop_check.outputs.stop == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          curl --fail-with-body -sS -L -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${REPO}/actions/workflows/update-results.yml/dispatches" \
+            -d '{"ref":"main","inputs":{"keep_alive":"true"}}'
+
