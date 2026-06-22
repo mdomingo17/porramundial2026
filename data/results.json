@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-06-21T21:59:28.602737+00:00",
+    "last_updated": "2026-06-22T06:02:06.137213+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 38,
-    "new_or_changed_matches": 1,
+    "completed_matches": 40,
+    "new_or_changed_matches": 2,
     "total_group_matches": 72
   },
   "matches": [
@@ -855,10 +855,11 @@
         "code": "EGY",
         "source": "Egipto"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760452"
     },
     {
       "match_id": "GG3_egypt_iran",
@@ -982,10 +983,11 @@
         "code": "CPV",
         "source": "Cabo Verde"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 2,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760450"
     },
     {
       "match_id": "GH3_cape_verde_saudi_arabia",
