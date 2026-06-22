@@ -3,9 +3,11 @@ from __future__ import annotations
 
 import json
 import re
+import time
 import unicodedata
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from urllib.error import URLError, HTTPError
 from urllib.request import Request, urlopen
 
 
@@ -119,10 +121,17 @@ def fetch_day(day: date) -> list[dict]:
         },
     )
 
-    with urlopen(req, timeout=30) as response:
-        data = json.loads(response.read().decode("utf-8"))
+    for attempt in range(1, 4):
+        try:
+            with urlopen(req, timeout=30) as response:
+                data = json.loads(response.read().decode("utf-8"))
+            return data.get("events", [])
+        except (URLError, HTTPError, TimeoutError) as exc:
+            print(f"Warning: ESPN request failed for {day} attempt {attempt}/3: {exc}")
+            time.sleep(2 * attempt)
 
-    return data.get("events", [])
+    print(f"Warning: giving up ESPN request for {day}")
+    return []
 
 
 def event_finished(event: dict) -> bool:
@@ -181,7 +190,7 @@ def match_event(match: dict, events: list[dict]):
 
 
 def load_json(path: Path, fallback):
-    if not path.exists():
+    if not path.exists() or path.stat().st_size == 0:
         return fallback
 
     return json.loads(path.read_text(encoding="utf-8"))
@@ -196,7 +205,7 @@ def main():
     today = datetime.now(timezone.utc).date()
 
     # Mira desde el inicio hasta mañana.
-    # Así no se pierden resultados aunque GitHub haya saltado algún schedule.
+    # Así no se pierde resultados aunque GitHub haya saltado algún schedule.
     start = START
     end = min(END, today + timedelta(days=1))
 
