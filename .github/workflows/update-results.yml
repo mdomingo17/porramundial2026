@@ -2,7 +2,7 @@ name: Update World Cup results
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "7,17,27,37,47,57 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,17 +18,11 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Debug trigger
-        run: |
-          echo "event=${{ github.event_name }}"
-          echo "schedule=${{ github.event.schedule }}"
-          echo "ref=${{ github.ref }}"
-          date -u
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,11 +31,6 @@ jobs:
 
       - name: Update results from ESPN public scoreboard
         run: python -u scripts/update_espn_results.py
-
-      - name: Show changes
-        run: |
-          git status --short
-          git diff -- data/results.json | sed -n '1,160p'
 
       - name: Commit updated results
         run: |
