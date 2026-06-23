@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-23T02:04:08.016238+00:00",
+    "last_updated": "2026-06-23T05:01:08.731368+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 43,
+    "completed_matches": 44,
     "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
@@ -1259,10 +1259,11 @@
         "code": "DZA",
         "source": "Argelia"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 1,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760455"
     },
     {
       "match_id": "GJ3_algeria_austria",
