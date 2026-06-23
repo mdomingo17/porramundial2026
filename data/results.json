@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-23T05:01:08.731368+00:00",
+    "last_updated": "2026-06-23T19:02:00.204123+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 44,
+    "completed_matches": 45,
     "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
@@ -1388,10 +1388,11 @@
         "code": "UZB",
         "source": "Uzbekistán"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 5,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760461"
     },
     {
       "match_id": "GK3_colombia_portugal",
