@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-22T19:04:56.008980+00:00",
+    "last_updated": "2026-06-23T00:51:23.088732+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 41,
+    "completed_matches": 42,
     "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
@@ -1107,10 +1107,11 @@
         "code": "IRQ",
         "source": "Irak"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 3,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760457"
     },
     {
       "match_id": "GI2_norway_senegal",
