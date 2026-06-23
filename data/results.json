@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-23T19:02:00.204123+00:00",
+    "last_updated": "2026-06-23T22:05:41.054036+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 45,
+    "completed_matches": 46,
     "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
@@ -1496,10 +1496,11 @@
         "code": "GHA",
         "source": "Ghana"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 0,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760458"
     },
     {
       "match_id": "GL2_panama_croatia",
