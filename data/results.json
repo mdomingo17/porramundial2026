@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-24T00:57:13.877544+00:00",
+    "last_updated": "2026-06-24T03:59:12.179305+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 47,
+    "completed_matches": 48,
     "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
@@ -1367,10 +1367,11 @@
         "code": "COD",
         "source": "RD Congo"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760459"
     },
     {
       "match_id": "GK2_portugal_uzbekistan",
