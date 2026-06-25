@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-24T20:59:33.856626+00:00",
+    "last_updated": "2026-06-25T00:06:43.561074+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 50,
+    "completed_matches": 52,
     "new_or_changed_matches": 2,
     "total_group_matches": 72
   },
@@ -373,10 +373,11 @@
         "code": "HTI",
         "source": "Haití"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 4,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760464"
     },
     {
       "match_id": "GC3_scotland_brazil",
@@ -394,10 +395,11 @@
         "code": "BRA",
         "source": "Brasil"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 0,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760465"
     },
     {
       "match_id": "GD1_australia_turkey",
