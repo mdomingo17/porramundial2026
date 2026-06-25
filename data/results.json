@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-25T02:58:43.643496+00:00",
+    "last_updated": "2026-06-25T22:00:41.919587+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 54,
+    "completed_matches": 56,
     "new_or_changed_matches": 2,
     "total_group_matches": 72
   },
@@ -637,10 +637,11 @@
         "code": "CIV",
         "source": "Costa de Marfil"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 0,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760473"
     },
     {
       "match_id": "GE3_ecuador_germany",
@@ -658,10 +659,11 @@
         "code": "GER",
         "source": "Alemania"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 2,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760468"
     },
     {
       "match_id": "GF1_netherlands_japan",
