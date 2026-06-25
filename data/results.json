@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-25T00:06:43.561074+00:00",
+    "last_updated": "2026-06-25T02:58:43.643496+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 52,
+    "completed_matches": 54,
     "new_or_changed_matches": 2,
     "total_group_matches": 72
   },
@@ -111,10 +111,11 @@
         "code": "MEX",
         "source": "México"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 0,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760467"
     },
     {
       "match_id": "GA3_south_africa_south_korea",
@@ -132,10 +133,11 @@
         "code": "KOR",
         "source": "Corea del Sur"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 1,
+      "away_goals": 0,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760466"
     },
     {
       "match_id": "GB1_canada_bosnia_and_herzegovina",
