@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T19:22:40.471664+00:00",
+    "last_updated": "2026-06-26T19:28:11.364574+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 60,
     "total_matches": 104,
@@ -1803,7 +1803,7 @@
         "code": "FRA",
         "source": "France"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 2,
       "winner_code": "FRA",
       "status": "live",
