@@ -524,7 +524,7 @@
       <div class="card" style="margin-bottom: 14px;">
         <h2>Clasificación</h2>
         <p style="margin: 0;">
-          En móvil verás la clasificación resumida. Pulsa en un participante para abrir su detalle y trazabilidad.
+          En móvil verás la clasificación resumida. Pulsa en un participante para abrir su detalle y trazabilidad, ordenado de más reciente a más antiguo.
         </p>
       </div>
 
@@ -1086,6 +1086,37 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
     details: []
   };
 
+  // Orden cronológico de eventos cerrados.
+  // Usamos source_row porque viene del Excel en el mismo orden temporal de la porra.
+  const groupCloseSortKey = {};
+  for (const m of entry.predictions?.group_matches || []) {
+    if (!m.group) continue;
+    groupCloseSortKey[m.group] = Math.max(groupCloseSortKey[m.group] || 0, Number(m.source_row || 0));
+  }
+
+  const maxGroupCloseSortKey = Math.max(0, ...Object.values(groupCloseSortKey));
+
+  const teamStatus = {};
+  for (const [group, rows] of Object.entries(groupData.standings || {})) {
+    for (const row of rows || []) {
+      teamStatus[row.code] = {
+        group,
+        rank: Number(row.rank || 0),
+        groupComplete: Boolean(groupData.groupComplete?.[group]),
+        groupCloseSortKey: Number(groupCloseSortKey[group] || 0)
+      };
+    }
+  }
+
+  const stageSortBase = {
+    round_of_32: 2000,
+    round_of_16: 3000,
+    quarterfinals: 4000,
+    semifinals: 5000,
+    third_place_match: 6000,
+    final: 7000
+  };
+
   // 1) Partidos de grupos.
   for (const predMatch of entry.predictions?.group_matches || []) {
     const actual = maps.byId.get(predMatch.match_id);
@@ -1109,6 +1140,7 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
         type: "Partido grupo",
         title: `${teamName(predMatch.home_team)} - ${teamName(predMatch.away_team)}`,
         points: scored.points,
+        sortKey: Number(predMatch.source_row || 0),
         meta: `${predMatch.prediction?.home_goals}-${predMatch.prediction?.away_goals} vs ${actual.home_goals}-${actual.away_goals} · ${scored.reason}`
       });
     }
@@ -1138,6 +1170,7 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
       type: "Posición grupo",
       title: `${rank}º Grupo ${group}: ${teamName(pos.team)}`,
       points,
+      sortKey: 1000 + Number(groupCloseSortKey[group] || pos.source_row || 0) + (5 - rank) / 10,
       meta: hit
         ? "Posición exacta acertada"
         : `No acertada · real: ${actualRow.name || actualRow.code}`
@@ -1145,7 +1178,8 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
   }
 
   // 3) Clasificados a rondas.
-  // Trazabilidad: cuando la ronda ya se conoce, se registra acierto o fallo.
+  // Trazabilidad: los 1º y 2º de grupos cerrados se evalúan al cerrar su grupo.
+  // Los mejores terceros de round_of_32 se evalúan solo cuando todos los grupos estén cerrados.
   for (const qualifier of entry.predictions?.round_qualifiers || []) {
     const stage = normalizeStage(qualifier.stage);
     const predCode = teamCode(qualifier.team);
@@ -1161,6 +1195,23 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
     const actualSet = stageTeams[stage];
     if (!actualSet || !possiblePoints) continue;
 
+    let sortKey = Number(stageSortBase[stage] || 0) + Number(qualifier.source_row || 0);
+
+    if (stage === "round_of_32") {
+      const status = teamStatus[predCode];
+
+      // Si el grupo del equipo aún no ha cerrado, no hay nada que enseñar todavía.
+      if (!status || !status.groupComplete) continue;
+
+      // Si queda 3º, puede clasificarse o no: se evalúa al cerrar todos los grupos.
+      if (status.rank === 3 && !groupData.allGroupsComplete) continue;
+
+      // 1º/2º se evalúan al cerrar su grupo; 3º se evalúa al cerrar todos los grupos.
+      sortKey = status.rank === 3
+        ? 1100 + maxGroupCloseSortKey + 0.5
+        : 1100 + Number(status.groupCloseSortKey || 0);
+    }
+
     const hit = actualSet.has(predCode);
     const points = hit ? possiblePoints : 0;
 
@@ -1173,6 +1224,7 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
       type: "Clasificado",
       title: `${teamName(qualifier.team)} → ${STAGE_LABELS[stage] || stage}`,
       points,
+      sortKey,
       meta: hit ? "Equipo alcanzó la ronda" : "No alcanzó la ronda"
     });
   }
@@ -1201,6 +1253,7 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
       type: `Eliminatoria · ${STAGE_LABELS[stage] || stage}`,
       title: `${teamName(predMatch.home_team)} - ${teamName(predMatch.away_team)}`,
       points: scored.points,
+      sortKey: Number(stageSortBase[stage] || 0) + Number(predMatch.slot || predMatch.source_row || 0),
       meta: `${predMatch.prediction?.home_goals}-${predMatch.prediction?.away_goals} · real ${teamName(actualHome(actual))} ${actual.home_goals}-${actual.away_goals} ${teamName(actualAway(actual))} · ${scored.reason}`
     });
   }
@@ -1228,6 +1281,7 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
       type: "Honor",
       title: honor.label || key,
       points,
+      sortKey: 8000 + Number(honor.source_row || 0),
       meta: hit
         ? `${honor.value?.name || honor.value?.source || honor.value?.code || predicted}`
         : `No acertado · predicho: ${honor.value?.name || honor.value?.source || honor.value?.code || predicted}`
@@ -1307,7 +1361,11 @@ function renderLeaderboard(scores) {
 }
 
 function renderDetail(row) {
-  const details = row.details || [];
+  const details = (row.details || []).slice().sort((a, b) =>
+    Number(b.sortKey || 0) - Number(a.sortKey || 0) ||
+    Number(b.points || 0) - Number(a.points || 0) ||
+    String(a.title || "").localeCompare(String(b.title || ""))
+  );
   const positiveCount = details.filter(d => Number(d.points || 0) > 0).length;
 
   document.getElementById("detailTitle").textContent = row.name;
@@ -1320,11 +1378,11 @@ function renderDetail(row) {
 
   const b = row.categories;
   document.getElementById("detailBreakdown").innerHTML = `
-    <div class="mini"><span class="muted">Partidos</span><strong>${fmtPts(b.matches)}</strong></div>
-    <div class="mini"><span class="muted">Posiciones grupo</span><strong>${fmtPts(b.groupPositions)}</strong></div>
-    <div class="mini"><span class="muted">Clasificados</span><strong>${fmtPts(b.qualifiers)}</strong></div>
-    <div class="mini"><span class="muted">Eliminatorias</span><strong>${fmtPts(b.knockoutMatches)}</strong></div>
-    <div class="mini"><span class="muted">Honores</span><strong>${fmtPts(b.honors)}</strong></div>
+    <div class="mini"><span class="muted">Puntos por partidos</span><strong>${fmtPts(b.matches)}</strong></div>
+    <div class="mini"><span class="muted">Puntos por acierto de posición grupos</span><strong>${fmtPts(b.groupPositions)}</strong></div>
+    <div class="mini"><span class="muted">Puntos por acertar clasificados</span><strong>${fmtPts(b.qualifiers)}</strong></div>
+    <div class="mini"><span class="muted">Puntos por acierto eliminatorias</span><strong>${fmtPts(b.knockoutMatches)}</strong></div>
+    <div class="mini"><span class="muted">Puntos por Premios finales</span><strong>${fmtPts(b.honors)}</strong></div>
     <div class="mini"><span class="muted">Partidos jugados</span><strong>${row.played}</strong></div>
   `;
 
