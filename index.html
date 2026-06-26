@@ -265,15 +265,26 @@
     }
 
     .mobile-summary-row {
+      width: 100%;
       display: grid;
       grid-template-columns: 34px minmax(0, 1fr) 64px;
       align-items: center;
       gap: 8px;
+      color: inherit;
+      text-align: left;
       border: 1px solid var(--line);
       border-radius: 12px;
       padding: 10px 11px;
       background: rgba(17,24,39,.72);
       box-shadow: var(--shadow);
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    .mobile-summary-row.selected {
+      border-color: rgba(147,197,253,.55);
+      background: rgba(147,197,253,.12);
     }
 
     .mobile-summary-row .rank {
@@ -438,13 +449,13 @@
         display: none;
       }
 
-      .mobile-summary,
-      .mobile-leaderboard {
+      .mobile-summary {
         display: grid;
       }
 
+      .mobile-leaderboard,
       .mobile-detail-title {
-        display: block;
+        display: none;
       }
 
       .breakdown {
@@ -513,7 +524,7 @@
       <div class="card" style="margin-bottom: 14px;">
         <h2>Clasificación</h2>
         <p style="margin: 0;">
-          En móvil primero verás la clasificación resumida y después las tarjetas con el detalle. Pulsa en un participante para ver toda la trazabilidad.
+          En móvil verás la clasificación resumida. Pulsa en un participante para abrir su detalle y trazabilidad.
         </p>
       </div>
 
@@ -540,8 +551,6 @@
       </div>
 
       <div id="leaderboardSummary" class="mobile-summary" aria-label="Clasificación resumida móvil"></div>
-      <div class="mobile-detail-title">Detalle por participante</div>
-      <div id="leaderboardCards" class="mobile-leaderboard" aria-label="Detalle de clasificación móvil"></div>
     </div>
 
     <aside class="card detail">
@@ -1237,18 +1246,16 @@ function resetGlobalCaches() {
 function renderLeaderboard(scores) {
   const body = document.getElementById("leaderboardBody");
   const summary = document.getElementById("leaderboardSummary");
-  const cards = document.getElementById("leaderboardCards");
   body.innerHTML = "";
   if (summary) summary.innerHTML = "";
-  if (cards) cards.innerHTML = "";
 
   function selectParticipant(row, target, shouldScroll = false) {
-    document.querySelectorAll("#leaderboardBody tr, .mobile-row").forEach(el => el.classList.remove("selected"));
+    document.querySelectorAll("#leaderboardBody tr, .mobile-summary-row").forEach(el => el.classList.remove("selected"));
     target?.classList.add("selected");
 
     const id = row.participant_id;
     document
-      .querySelectorAll(`#leaderboardBody tr[data-participant-id="${CSS.escape(id)}"], .mobile-row[data-participant-id="${CSS.escape(id)}"]`)
+      .querySelectorAll(`#leaderboardBody tr[data-participant-id="${CSS.escape(id)}"], .mobile-summary-row[data-participant-id="${CSS.escape(id)}"]`)
       .forEach(el => el.classList.add("selected"));
 
     renderDetail(row);
@@ -1278,46 +1285,23 @@ function renderLeaderboard(scores) {
     body.appendChild(tr);
 
     if (summary) {
-      const summaryRow = document.createElement("div");
+      const summaryRow = document.createElement("button");
+      summaryRow.type = "button";
       summaryRow.className = "mobile-summary-row";
+      summaryRow.dataset.participantId = row.participant_id;
       summaryRow.innerHTML = `
         <span class="rank">${index + 1}</span>
         <span class="name">${escapeHtml(row.name)}</span>
         <span class="total">${fmtPts(row.total)}</span>
       `;
+      summaryRow.addEventListener("click", () => selectParticipant(row, summaryRow, true));
       summary.appendChild(summaryRow);
-    }
-
-    if (cards) {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "mobile-row";
-      button.dataset.participantId = row.participant_id;
-      button.innerHTML = `
-        <div class="mobile-row-top">
-          <span class="rank">${index + 1}</span>
-          <span class="name">${escapeHtml(row.name)}</span>
-          <span class="total">${fmtPts(row.total)}</span>
-        </div>
-        <div class="mobile-stats">
-          <div class="mobile-stat"><span>Partidos</span><strong>${fmtPts(row.categories.matches)}</strong></div>
-          <div class="mobile-stat"><span>Pos. grupo</span><strong>${fmtPts(row.categories.groupPositions)}</strong></div>
-          <div class="mobile-stat"><span>Clasif.</span><strong>${fmtPts(row.categories.qualifiers)}</strong></div>
-          <div class="mobile-stat"><span>Elim.</span><strong>${fmtPts(row.categories.knockoutMatches)}</strong></div>
-          <div class="mobile-stat"><span>Honores</span><strong>${fmtPts(row.categories.honors)}</strong></div>
-          <div class="mobile-stat"><span>Exactos</span><strong>${row.exact}</strong></div>
-          <div class="mobile-stat"><span>1X2</span><strong>${row.oneXtwo}</strong></div>
-          <div class="mobile-stat"><span>Jugados</span><strong>${row.played}</strong></div>
-        </div>
-      `;
-      button.addEventListener("click", () => selectParticipant(row, button, true));
-      cards.appendChild(button);
     }
   });
 
   if (scores[0]) {
     body.querySelector("tr")?.classList.add("selected");
-    cards?.querySelector(".mobile-row")?.classList.add("selected");
+    summary?.querySelector(".mobile-summary-row")?.classList.add("selected");
     renderDetail(scores[0]);
   }
 }
