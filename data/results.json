@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T20:41:55.597932+00:00",
+    "last_updated": "2026-06-26T20:52:27.216424+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 60,
     "total_matches": 104,
@@ -1837,7 +1837,7 @@
         "code": "IRQ",
         "source": "Iraq"
       },
-      "home_goals": 4,
+      "home_goals": 5,
       "away_goals": 0,
       "winner_code": "SEN",
       "status": "live",
