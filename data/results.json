@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T00:57:54.455773+00:00",
+    "last_updated": "2026-06-26T01:03:08.623418+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 57,
+    "completed_matches": 58,
     "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
@@ -769,10 +769,11 @@
         "code": "SWE",
         "source": "Suecia"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 1,
+      "away_goals": 1,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760471"
     },
     {
       "match_id": "GF3_tunisia_netherlands",
