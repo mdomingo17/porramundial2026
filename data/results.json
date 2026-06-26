@@ -1,9 +1,9 @@
 {
   "meta": {
-    "last_updated": "2026-06-25T22:00:41.919587+00:00",
+    "last_updated": "2026-06-26T00:57:54.455773+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 56,
-    "new_or_changed_matches": 2,
+    "completed_matches": 57,
+    "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
   "matches": [
@@ -790,10 +790,11 @@
         "code": "NED",
         "source": "Países Bajos"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 1,
+      "away_goals": 3,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760472"
     },
     {
       "match_id": "GG1_belgium_egypt",
