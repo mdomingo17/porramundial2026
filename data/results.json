@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T20:52:27.216424+00:00",
+    "last_updated": "2026-06-26T21:02:56.119350+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 60,
+    "completed_matches": 61,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -1804,9 +1804,9 @@
         "source": "France"
       },
       "home_goals": 1,
-      "away_goals": 3,
+      "away_goals": 4,
       "winner_code": "FRA",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760475",
       "kickoff": "2026-06-26T19:00Z"
