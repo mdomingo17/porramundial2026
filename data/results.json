@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T04:00:41.348182+00:00",
+    "last_updated": "2026-06-26T04:05:53.208521+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 59,
+    "completed_matches": 60,
     "new_or_changed_matches": 1,
     "total_group_matches": 72
   },
@@ -529,10 +529,11 @@
         "code": "USA",
         "source": "Estados Unidos"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "home_goals": 3,
+      "away_goals": 2,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760470"
     },
     {
       "match_id": "GE1_germany_curacao",
