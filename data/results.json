@@ -1,15 +1,17 @@
 {
   "meta": {
-    "last_updated": "2026-06-26T04:05:53.208521+00:00",
+    "last_updated": "2026-06-26T15:42:46.333920+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 60,
-    "new_or_changed_matches": 1,
-    "total_group_matches": 72
+    "total_matches": 104,
+    "group_matches": 72,
+    "knockout_matches": 32,
+    "changed": true
   },
   "matches": [
     {
       "match_id": "GA1_mexico_south_africa",
-      "source_id": "66456904",
+      "source_id": "760415",
       "stage": "group",
       "group": "A",
       "matchday": 1,
@@ -23,15 +25,27 @@
         "code": "RSA",
         "source": "Sudáfrica"
       },
+      "actual_home_team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "source": "Mexico"
+      },
+      "actual_away_team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "source": "South Africa"
+      },
       "home_goals": 2,
       "away_goals": 0,
+      "winner_code": "MEX",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760415"
+      "espn_event_id": "760415",
+      "kickoff": "2026-06-11T19:00Z"
     },
     {
       "match_id": "GA1_south_korea_czechia",
-      "source_id": "66456906",
+      "source_id": "760414",
       "stage": "group",
       "group": "A",
       "matchday": 1,
@@ -45,15 +59,27 @@
         "code": "CZE",
         "source": "República Checa"
       },
+      "actual_home_team": {
+        "name": "South Korea",
+        "code": "KOR",
+        "source": "South Korea"
+      },
+      "actual_away_team": {
+        "name": "Czechia",
+        "code": "CZE",
+        "source": "Czechia"
+      },
       "home_goals": 2,
       "away_goals": 1,
+      "winner_code": "KOR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760414"
+      "espn_event_id": "760414",
+      "kickoff": "2026-06-12T02:00Z"
     },
     {
       "match_id": "GA2_czechia_south_africa",
-      "source_id": "66456910",
+      "source_id": "760438",
       "stage": "group",
       "group": "A",
       "matchday": 2,
@@ -67,15 +93,27 @@
         "code": "RSA",
         "source": "Sudáfrica"
       },
+      "actual_home_team": {
+        "name": "Czechia",
+        "code": "CZE",
+        "source": "Czechia"
+      },
+      "actual_away_team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "source": "South Africa"
+      },
       "home_goals": 1,
       "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760438"
+      "espn_event_id": "760438",
+      "kickoff": "2026-06-18T16:00Z"
     },
     {
       "match_id": "GA2_mexico_south_korea",
-      "source_id": "66456908",
+      "source_id": "760441",
       "stage": "group",
       "group": "A",
       "matchday": 2,
@@ -89,15 +127,27 @@
         "code": "KOR",
         "source": "Corea del Sur"
       },
+      "actual_home_team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "source": "Mexico"
+      },
+      "actual_away_team": {
+        "name": "South Korea",
+        "code": "KOR",
+        "source": "South Korea"
+      },
       "home_goals": 1,
       "away_goals": 0,
+      "winner_code": "MEX",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760441"
+      "espn_event_id": "760441",
+      "kickoff": "2026-06-19T01:00Z"
     },
     {
       "match_id": "GA3_czechia_mexico",
-      "source_id": "66456912",
+      "source_id": "760467",
       "stage": "group",
       "group": "A",
       "matchday": 3,
@@ -111,15 +161,27 @@
         "code": "MEX",
         "source": "México"
       },
+      "actual_home_team": {
+        "name": "Czechia",
+        "code": "CZE",
+        "source": "Czechia"
+      },
+      "actual_away_team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "source": "Mexico"
+      },
       "home_goals": 0,
       "away_goals": 3,
+      "winner_code": "MEX",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760467"
+      "espn_event_id": "760467",
+      "kickoff": "2026-06-25T01:00Z"
     },
     {
       "match_id": "GA3_south_africa_south_korea",
-      "source_id": "66456914",
+      "source_id": "760466",
       "stage": "group",
       "group": "A",
       "matchday": 3,
@@ -133,15 +195,27 @@
         "code": "KOR",
         "source": "Corea del Sur"
       },
+      "actual_home_team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "source": "South Africa"
+      },
+      "actual_away_team": {
+        "name": "South Korea",
+        "code": "KOR",
+        "source": "South Korea"
+      },
       "home_goals": 1,
       "away_goals": 0,
+      "winner_code": "RSA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760466"
+      "espn_event_id": "760466",
+      "kickoff": "2026-06-25T01:00Z"
     },
     {
       "match_id": "GB1_canada_bosnia_and_herzegovina",
-      "source_id": "66456916",
+      "source_id": "760416",
       "stage": "group",
       "group": "B",
       "matchday": 1,
@@ -155,15 +229,27 @@
         "code": "BIH",
         "source": "Bosnia y Herzegovina"
       },
+      "actual_home_team": {
+        "name": "Canada",
+        "code": "CAN",
+        "source": "Canada"
+      },
+      "actual_away_team": {
+        "name": "Bosnia-Herzegovina",
+        "code": "BIH",
+        "source": "Bosnia-Herzegovina"
+      },
       "home_goals": 1,
       "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760416"
+      "espn_event_id": "760416",
+      "kickoff": "2026-06-12T19:00Z"
     },
     {
       "match_id": "GB1_qatar_switzerland",
-      "source_id": "66456918",
+      "source_id": "760420",
       "stage": "group",
       "group": "B",
       "matchday": 1,
@@ -177,15 +263,27 @@
         "code": "SUI",
         "source": "Suiza"
       },
+      "actual_home_team": {
+        "name": "Qatar",
+        "code": "QAT",
+        "source": "Qatar"
+      },
+      "actual_away_team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Switzerland"
+      },
       "home_goals": 1,
       "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760420"
+      "espn_event_id": "760420",
+      "kickoff": "2026-06-13T19:00Z"
     },
     {
       "match_id": "GB2_canada_qatar",
-      "source_id": "66456920",
+      "source_id": "760440",
       "stage": "group",
       "group": "B",
       "matchday": 2,
@@ -198,16 +296,28 @@
         "name": "Qatar",
         "code": "QAT",
         "source": "Catar"
+      },
+      "actual_home_team": {
+        "name": "Canada",
+        "code": "CAN",
+        "source": "Canada"
+      },
+      "actual_away_team": {
+        "name": "Qatar",
+        "code": "QAT",
+        "source": "Qatar"
       },
       "home_goals": 6,
       "away_goals": 0,
+      "winner_code": "CAN",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760440"
+      "espn_event_id": "760440",
+      "kickoff": "2026-06-18T22:00Z"
     },
     {
       "match_id": "GB2_switzerland_bosnia_and_herzegovina",
-      "source_id": "66456922",
+      "source_id": "760439",
       "stage": "group",
       "group": "B",
       "matchday": 2,
@@ -221,15 +331,27 @@
         "code": "BIH",
         "source": "Bosnia y Herzegovina"
       },
+      "actual_home_team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Switzerland"
+      },
+      "actual_away_team": {
+        "name": "Bosnia-Herzegovina",
+        "code": "BIH",
+        "source": "Bosnia-Herzegovina"
+      },
       "home_goals": 4,
       "away_goals": 1,
+      "winner_code": "SUI",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760439"
+      "espn_event_id": "760439",
+      "kickoff": "2026-06-18T19:00Z"
     },
     {
       "match_id": "GB3_bosnia_and_herzegovina_qatar",
-      "source_id": "66456926",
+      "source_id": "760462",
       "stage": "group",
       "group": "B",
       "matchday": 3,
@@ -243,15 +365,27 @@
         "code": "QAT",
         "source": "Catar"
       },
+      "actual_home_team": {
+        "name": "Bosnia-Herzegovina",
+        "code": "BIH",
+        "source": "Bosnia-Herzegovina"
+      },
+      "actual_away_team": {
+        "name": "Qatar",
+        "code": "QAT",
+        "source": "Qatar"
+      },
       "home_goals": 3,
       "away_goals": 1,
+      "winner_code": "BIH",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760462"
+      "espn_event_id": "760462",
+      "kickoff": "2026-06-24T19:00Z"
     },
     {
       "match_id": "GB3_switzerland_canada",
-      "source_id": "66456924",
+      "source_id": "760463",
       "stage": "group",
       "group": "B",
       "matchday": 3,
@@ -265,15 +399,27 @@
         "code": "CAN",
         "source": "Canadá"
       },
+      "actual_home_team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Switzerland"
+      },
+      "actual_away_team": {
+        "name": "Canada",
+        "code": "CAN",
+        "source": "Canada"
+      },
       "home_goals": 2,
       "away_goals": 1,
+      "winner_code": "SUI",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760463"
+      "espn_event_id": "760463",
+      "kickoff": "2026-06-24T19:00Z"
     },
     {
       "match_id": "GC1_brazil_morocco",
-      "source_id": "66456928",
+      "source_id": "760419",
       "stage": "group",
       "group": "C",
       "matchday": 1,
@@ -287,15 +433,27 @@
         "code": "MAR",
         "source": "Marruecos"
       },
+      "actual_home_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brazil"
+      },
+      "actual_away_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "source": "Morocco"
+      },
       "home_goals": 1,
       "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760419"
+      "espn_event_id": "760419",
+      "kickoff": "2026-06-13T22:00Z"
     },
     {
       "match_id": "GC1_haiti_scotland",
-      "source_id": "66456930",
+      "source_id": "760418",
       "stage": "group",
       "group": "C",
       "matchday": 1,
@@ -309,15 +467,27 @@
         "code": "SCO",
         "source": "Escocia"
       },
+      "actual_home_team": {
+        "name": "Haiti",
+        "code": "HAI",
+        "source": "Haiti"
+      },
+      "actual_away_team": {
+        "name": "Scotland",
+        "code": "SCO",
+        "source": "Scotland"
+      },
       "home_goals": 0,
       "away_goals": 1,
+      "winner_code": "SCO",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760418"
+      "espn_event_id": "760418",
+      "kickoff": "2026-06-14T01:00Z"
     },
     {
       "match_id": "GC2_brazil_haiti",
-      "source_id": "66456932",
+      "source_id": "760444",
       "stage": "group",
       "group": "C",
       "matchday": 2,
@@ -331,15 +501,27 @@
         "code": "HTI",
         "source": "Haití"
       },
+      "actual_home_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brazil"
+      },
+      "actual_away_team": {
+        "name": "Haiti",
+        "code": "HAI",
+        "source": "Haiti"
+      },
       "home_goals": 3,
       "away_goals": 0,
+      "winner_code": "BRA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760444"
+      "espn_event_id": "760444",
+      "kickoff": "2026-06-20T00:30Z"
     },
     {
       "match_id": "GC2_scotland_morocco",
-      "source_id": "66456934",
+      "source_id": "760445",
       "stage": "group",
       "group": "C",
       "matchday": 2,
@@ -353,15 +535,27 @@
         "code": "MAR",
         "source": "Marruecos"
       },
+      "actual_home_team": {
+        "name": "Scotland",
+        "code": "SCO",
+        "source": "Scotland"
+      },
+      "actual_away_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "source": "Morocco"
+      },
       "home_goals": 0,
       "away_goals": 1,
+      "winner_code": "MAR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760445"
+      "espn_event_id": "760445",
+      "kickoff": "2026-06-19T22:00Z"
     },
     {
       "match_id": "GC3_morocco_haiti",
-      "source_id": "66456938",
+      "source_id": "760464",
       "stage": "group",
       "group": "C",
       "matchday": 3,
@@ -375,15 +569,27 @@
         "code": "HTI",
         "source": "Haití"
       },
+      "actual_home_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "source": "Morocco"
+      },
+      "actual_away_team": {
+        "name": "Haiti",
+        "code": "HAI",
+        "source": "Haiti"
+      },
       "home_goals": 4,
       "away_goals": 2,
+      "winner_code": "MAR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760464"
+      "espn_event_id": "760464",
+      "kickoff": "2026-06-24T22:00Z"
     },
     {
       "match_id": "GC3_scotland_brazil",
-      "source_id": "66456936",
+      "source_id": "760465",
       "stage": "group",
       "group": "C",
       "matchday": 3,
@@ -397,15 +603,27 @@
         "code": "BRA",
         "source": "Brasil"
       },
+      "actual_home_team": {
+        "name": "Scotland",
+        "code": "SCO",
+        "source": "Scotland"
+      },
+      "actual_away_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brazil"
+      },
       "home_goals": 0,
       "away_goals": 3,
+      "winner_code": "BRA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760465"
+      "espn_event_id": "760465",
+      "kickoff": "2026-06-24T22:00Z"
     },
     {
       "match_id": "GD1_australia_turkey",
-      "source_id": "66456942",
+      "source_id": "760421",
       "stage": "group",
       "group": "D",
       "matchday": 1,
@@ -419,15 +637,27 @@
         "code": "TUR",
         "source": "Turquía"
       },
+      "actual_home_team": {
+        "name": "Australia",
+        "code": "AUS",
+        "source": "Australia"
+      },
+      "actual_away_team": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "source": "Türkiye"
+      },
       "home_goals": 2,
       "away_goals": 0,
+      "winner_code": "AUS",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760421"
+      "espn_event_id": "760421",
+      "kickoff": "2026-06-14T04:00Z"
     },
     {
       "match_id": "GD1_united_states_paraguay",
-      "source_id": "66456940",
+      "source_id": "760417",
       "stage": "group",
       "group": "D",
       "matchday": 1,
@@ -441,15 +671,27 @@
         "code": "PAR",
         "source": "Paraguay"
       },
+      "actual_home_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "United States"
+      },
+      "actual_away_team": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "source": "Paraguay"
+      },
       "home_goals": 4,
       "away_goals": 1,
+      "winner_code": "USA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760417"
+      "espn_event_id": "760417",
+      "kickoff": "2026-06-13T01:00Z"
     },
     {
       "match_id": "GD2_turkey_paraguay",
-      "source_id": "66456946",
+      "source_id": "760443",
       "stage": "group",
       "group": "D",
       "matchday": 2,
@@ -463,15 +705,27 @@
         "code": "PAR",
         "source": "Paraguay"
       },
+      "actual_home_team": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "source": "Türkiye"
+      },
+      "actual_away_team": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "source": "Paraguay"
+      },
       "home_goals": 0,
       "away_goals": 1,
+      "winner_code": "PAR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760443"
+      "espn_event_id": "760443",
+      "kickoff": "2026-06-20T03:00Z"
     },
     {
       "match_id": "GD2_united_states_australia",
-      "source_id": "66456944",
+      "source_id": "760442",
       "stage": "group",
       "group": "D",
       "matchday": 2,
@@ -485,15 +739,27 @@
         "code": "AUS",
         "source": "Australia"
       },
+      "actual_home_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "United States"
+      },
+      "actual_away_team": {
+        "name": "Australia",
+        "code": "AUS",
+        "source": "Australia"
+      },
       "home_goals": 2,
       "away_goals": 0,
+      "winner_code": "USA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760442"
+      "espn_event_id": "760442",
+      "kickoff": "2026-06-19T19:00Z"
     },
     {
       "match_id": "GD3_paraguay_australia",
-      "source_id": "66456950",
+      "source_id": "760469",
       "stage": "group",
       "group": "D",
       "matchday": 3,
@@ -507,15 +773,27 @@
         "code": "AUS",
         "source": "Australia"
       },
+      "actual_home_team": {
+        "name": "Paraguay",
+        "code": "PAR",
+        "source": "Paraguay"
+      },
+      "actual_away_team": {
+        "name": "Australia",
+        "code": "AUS",
+        "source": "Australia"
+      },
       "home_goals": 0,
       "away_goals": 0,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760469"
+      "espn_event_id": "760469",
+      "kickoff": "2026-06-26T02:00Z"
     },
     {
       "match_id": "GD3_turkey_united_states",
-      "source_id": "66456948",
+      "source_id": "760470",
       "stage": "group",
       "group": "D",
       "matchday": 3,
@@ -529,15 +807,27 @@
         "code": "USA",
         "source": "Estados Unidos"
       },
+      "actual_home_team": {
+        "name": "Türkiye",
+        "code": "TUR",
+        "source": "Türkiye"
+      },
+      "actual_away_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "United States"
+      },
       "home_goals": 3,
       "away_goals": 2,
+      "winner_code": "TUR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760470"
+      "espn_event_id": "760470",
+      "kickoff": "2026-06-26T02:00Z"
     },
     {
       "match_id": "GE1_germany_curacao",
-      "source_id": "66457070",
+      "source_id": "760422",
       "stage": "group",
       "group": "E",
       "matchday": 1,
@@ -550,16 +840,28 @@
         "name": "Curacao",
         "code": "CUW",
         "source": "Curazao"
+      },
+      "actual_home_team": {
+        "name": "Germany",
+        "code": "GER",
+        "source": "Germany"
+      },
+      "actual_away_team": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "source": "Curaçao"
       },
       "home_goals": 7,
       "away_goals": 1,
+      "winner_code": "GER",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760422"
+      "espn_event_id": "760422",
+      "kickoff": "2026-06-14T17:00Z"
     },
     {
       "match_id": "GE1_ivory_coast_ecuador",
-      "source_id": "66457072",
+      "source_id": "760423",
       "stage": "group",
       "group": "E",
       "matchday": 1,
@@ -573,15 +875,27 @@
         "code": "ECU",
         "source": "Ecuador"
       },
+      "actual_home_team": {
+        "name": "Ivory Coast",
+        "code": "CIV",
+        "source": "Ivory Coast"
+      },
+      "actual_away_team": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "source": "Ecuador"
+      },
       "home_goals": 1,
       "away_goals": 0,
+      "winner_code": "CIV",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760423"
+      "espn_event_id": "760423",
+      "kickoff": "2026-06-14T23:00Z"
     },
     {
       "match_id": "GE2_ecuador_curacao",
-      "source_id": "66457076",
+      "source_id": "760446",
       "stage": "group",
       "group": "E",
       "matchday": 2,
@@ -595,15 +909,27 @@
         "code": "CUW",
         "source": "Curazao"
       },
+      "actual_home_team": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "source": "Ecuador"
+      },
+      "actual_away_team": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "source": "Curaçao"
+      },
       "home_goals": 0,
       "away_goals": 0,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760446"
+      "espn_event_id": "760446",
+      "kickoff": "2026-06-21T00:00Z"
     },
     {
       "match_id": "GE2_germany_ivory_coast",
-      "source_id": "66457074",
+      "source_id": "760448",
       "stage": "group",
       "group": "E",
       "matchday": 2,
@@ -617,15 +943,27 @@
         "code": "CIV",
         "source": "Costa de Marfil"
       },
+      "actual_home_team": {
+        "name": "Germany",
+        "code": "GER",
+        "source": "Germany"
+      },
+      "actual_away_team": {
+        "name": "Ivory Coast",
+        "code": "CIV",
+        "source": "Ivory Coast"
+      },
       "home_goals": 2,
       "away_goals": 1,
+      "winner_code": "GER",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760448"
+      "espn_event_id": "760448",
+      "kickoff": "2026-06-20T20:00Z"
     },
     {
       "match_id": "GE3_curacao_ivory_coast",
-      "source_id": "66457080",
+      "source_id": "760473",
       "stage": "group",
       "group": "E",
       "matchday": 3,
@@ -639,15 +977,27 @@
         "code": "CIV",
         "source": "Costa de Marfil"
       },
+      "actual_home_team": {
+        "name": "Curaçao",
+        "code": "CUW",
+        "source": "Curaçao"
+      },
+      "actual_away_team": {
+        "name": "Ivory Coast",
+        "code": "CIV",
+        "source": "Ivory Coast"
+      },
       "home_goals": 0,
       "away_goals": 2,
+      "winner_code": "CIV",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760473"
+      "espn_event_id": "760473",
+      "kickoff": "2026-06-25T20:00Z"
     },
     {
       "match_id": "GE3_ecuador_germany",
-      "source_id": "66457078",
+      "source_id": "760468",
       "stage": "group",
       "group": "E",
       "matchday": 3,
@@ -661,15 +1011,27 @@
         "code": "GER",
         "source": "Alemania"
       },
+      "actual_home_team": {
+        "name": "Ecuador",
+        "code": "ECU",
+        "source": "Ecuador"
+      },
+      "actual_away_team": {
+        "name": "Germany",
+        "code": "GER",
+        "source": "Germany"
+      },
       "home_goals": 2,
       "away_goals": 1,
+      "winner_code": "ECU",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760468"
+      "espn_event_id": "760468",
+      "kickoff": "2026-06-25T20:00Z"
     },
     {
       "match_id": "GF1_netherlands_japan",
-      "source_id": "66456968",
+      "source_id": "760425",
       "stage": "group",
       "group": "F",
       "matchday": 1,
@@ -683,15 +1045,27 @@
         "code": "JPN",
         "source": "Japón"
       },
+      "actual_home_team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Netherlands"
+      },
+      "actual_away_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japan"
+      },
       "home_goals": 2,
       "away_goals": 2,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760425"
+      "espn_event_id": "760425",
+      "kickoff": "2026-06-14T20:00Z"
     },
     {
       "match_id": "GF1_sweden_tunisia",
-      "source_id": "66456970",
+      "source_id": "760424",
       "stage": "group",
       "group": "F",
       "matchday": 1,
@@ -705,15 +1079,27 @@
         "code": "TUN",
         "source": "Túnez"
       },
+      "actual_home_team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "source": "Sweden"
+      },
+      "actual_away_team": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "source": "Tunisia"
+      },
       "home_goals": 5,
       "away_goals": 1,
+      "winner_code": "SWE",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760424"
+      "espn_event_id": "760424",
+      "kickoff": "2026-06-15T02:00Z"
     },
     {
       "match_id": "GF2_netherlands_sweden",
-      "source_id": "66456972",
+      "source_id": "760447",
       "stage": "group",
       "group": "F",
       "matchday": 2,
@@ -727,15 +1113,27 @@
         "code": "SWE",
         "source": "Suecia"
       },
+      "actual_home_team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Netherlands"
+      },
+      "actual_away_team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "source": "Sweden"
+      },
       "home_goals": 5,
       "away_goals": 1,
+      "winner_code": "NED",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760447"
+      "espn_event_id": "760447",
+      "kickoff": "2026-06-20T17:00Z"
     },
     {
       "match_id": "GF2_tunisia_japan",
-      "source_id": "66456974",
+      "source_id": "760449",
       "stage": "group",
       "group": "F",
       "matchday": 2,
@@ -749,15 +1147,27 @@
         "code": "JPN",
         "source": "Japón"
       },
+      "actual_home_team": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "source": "Tunisia"
+      },
+      "actual_away_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japan"
+      },
       "home_goals": 0,
       "away_goals": 4,
+      "winner_code": "JPN",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760449"
+      "espn_event_id": "760449",
+      "kickoff": "2026-06-21T04:00Z"
     },
     {
       "match_id": "GF3_japan_sweden",
-      "source_id": "66456978",
+      "source_id": "760471",
       "stage": "group",
       "group": "F",
       "matchday": 3,
@@ -771,15 +1181,27 @@
         "code": "SWE",
         "source": "Suecia"
       },
+      "actual_home_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japan"
+      },
+      "actual_away_team": {
+        "name": "Sweden",
+        "code": "SWE",
+        "source": "Sweden"
+      },
       "home_goals": 1,
       "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760471"
+      "espn_event_id": "760471",
+      "kickoff": "2026-06-25T23:00Z"
     },
     {
       "match_id": "GF3_tunisia_netherlands",
-      "source_id": "66456976",
+      "source_id": "760472",
       "stage": "group",
       "group": "F",
       "matchday": 3,
@@ -793,15 +1215,27 @@
         "code": "NED",
         "source": "Países Bajos"
       },
+      "actual_home_team": {
+        "name": "Tunisia",
+        "code": "TUN",
+        "source": "Tunisia"
+      },
+      "actual_away_team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Netherlands"
+      },
       "home_goals": 1,
       "away_goals": 3,
+      "winner_code": "NED",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760472"
+      "espn_event_id": "760472",
+      "kickoff": "2026-06-25T23:00Z"
     },
     {
       "match_id": "GG1_belgium_egypt",
-      "source_id": "66456982",
+      "source_id": "760426",
       "stage": "group",
       "group": "G",
       "matchday": 1,
@@ -815,15 +1249,27 @@
         "code": "EGY",
         "source": "Egipto"
       },
+      "actual_home_team": {
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Belgium"
+      },
+      "actual_away_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "source": "Egypt"
+      },
       "home_goals": 1,
       "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760426"
+      "espn_event_id": "760426",
+      "kickoff": "2026-06-15T19:00Z"
     },
     {
       "match_id": "GG1_iran_new_zealand",
-      "source_id": "66456984",
+      "source_id": "760427",
       "stage": "group",
       "group": "G",
       "matchday": 1,
@@ -837,15 +1283,27 @@
         "code": "NZL",
         "source": "Nueva Zelanda"
       },
+      "actual_home_team": {
+        "name": "Iran",
+        "code": "IRN",
+        "source": "Iran"
+      },
+      "actual_away_team": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "source": "New Zealand"
+      },
       "home_goals": 2,
       "away_goals": 2,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760427"
+      "espn_event_id": "760427",
+      "kickoff": "2026-06-16T01:00Z"
     },
     {
       "match_id": "GG2_belgium_iran",
-      "source_id": "66456986",
+      "source_id": "760451",
       "stage": "group",
       "group": "G",
       "matchday": 2,
@@ -859,15 +1317,27 @@
         "code": "IRI",
         "source": "Irán"
       },
+      "actual_home_team": {
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Belgium"
+      },
+      "actual_away_team": {
+        "name": "Iran",
+        "code": "IRN",
+        "source": "Iran"
+      },
       "home_goals": 0,
       "away_goals": 0,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760451"
+      "espn_event_id": "760451",
+      "kickoff": "2026-06-21T19:00Z"
     },
     {
       "match_id": "GG2_new_zealand_egypt",
-      "source_id": "66456988",
+      "source_id": "760452",
       "stage": "group",
       "group": "G",
       "matchday": 2,
@@ -881,15 +1351,27 @@
         "code": "EGY",
         "source": "Egipto"
       },
+      "actual_home_team": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "source": "New Zealand"
+      },
+      "actual_away_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "source": "Egypt"
+      },
       "home_goals": 1,
       "away_goals": 3,
+      "winner_code": "EGY",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760452"
+      "espn_event_id": "760452",
+      "kickoff": "2026-06-22T01:00Z"
     },
     {
       "match_id": "GG3_egypt_iran",
-      "source_id": "66456992",
+      "source_id": "760476",
       "stage": "group",
       "group": "G",
       "matchday": 3,
@@ -903,14 +1385,27 @@
         "code": "IRI",
         "source": "Irán"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Egypt",
+        "code": "EGY",
+        "source": "Egypt"
+      },
+      "actual_away_team": {
+        "name": "Iran",
+        "code": "IRN",
+        "source": "Iran"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760476",
+      "kickoff": "2026-06-27T03:00Z"
     },
     {
       "match_id": "GG3_new_zealand_belgium",
-      "source_id": "66456990",
+      "source_id": "760477",
       "stage": "group",
       "group": "G",
       "matchday": 3,
@@ -924,58 +1419,95 @@
         "code": "BEL",
         "source": "Bélgica"
       },
-      "home_goals": null,
-      "away_goals": null,
-      "status": "scheduled",
-      "source": "ESPN public scoreboard"
-    },
-    {
-      "match_id": "GH1_saudi_arabia_uruguay",
-      "source_id": "66456996",
-      "stage": "group",
-      "group": "H",
-      "matchday": 1,
-      "home_team": {
-        "name": "Saudi Arabia",
-        "code": "KSA",
-        "source": "Arabia Saudita"
+      "actual_home_team": {
+        "name": "New Zealand",
+        "code": "NZL",
+        "source": "New Zealand"
       },
-      "away_team": {
-        "name": "Uruguay",
-        "code": "URU",
-        "source": "Uruguay"
-      },
-      "home_goals": 1,
-      "away_goals": 1,
-      "status": "finished",
-      "source": "ESPN public scoreboard",
-      "espn_event_id": "760429"
-    },
-    {
-      "match_id": "GH1_spain_cape_verde",
-      "source_id": "66456994",
-      "stage": "group",
-      "group": "H",
-      "matchday": 1,
-      "home_team": {
-        "name": "Spain",
-        "code": "ESP",
-        "source": "España"
-      },
-      "away_team": {
-        "name": "Cape Verde",
-        "code": "CPV",
-        "source": "Cabo Verde"
+      "actual_away_team": {
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Belgium"
       },
       "home_goals": 0,
       "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760477",
+      "kickoff": "2026-06-27T03:00Z"
+    },
+    {
+      "match_id": "GH1_saudi_arabia_uruguay",
+      "source_id": "760429",
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home_team": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "source": "Arabia Saudita"
+      },
+      "away_team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "source": "Uruguay"
+      },
+      "actual_home_team": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "source": "Saudi Arabia"
+      },
+      "actual_away_team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "source": "Uruguay"
+      },
+      "home_goals": 1,
+      "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760428"
+      "espn_event_id": "760429",
+      "kickoff": "2026-06-15T22:00Z"
+    },
+    {
+      "match_id": "GH1_spain_cape_verde",
+      "source_id": "760428",
+      "stage": "group",
+      "group": "H",
+      "matchday": 1,
+      "home_team": {
+        "name": "Spain",
+        "code": "ESP",
+        "source": "España"
+      },
+      "away_team": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "source": "Cabo Verde"
+      },
+      "actual_home_team": {
+        "name": "Spain",
+        "code": "ESP",
+        "source": "Spain"
+      },
+      "actual_away_team": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "source": "Cape Verde"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "finished",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760428",
+      "kickoff": "2026-06-15T16:00Z"
     },
     {
       "match_id": "GH2_spain_saudi_arabia",
-      "source_id": "66456998",
+      "source_id": "760453",
       "stage": "group",
       "group": "H",
       "matchday": 2,
@@ -988,16 +1520,28 @@
         "name": "Saudi Arabia",
         "code": "KSA",
         "source": "Arabia Saudita"
+      },
+      "actual_home_team": {
+        "name": "Spain",
+        "code": "ESP",
+        "source": "Spain"
+      },
+      "actual_away_team": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "source": "Saudi Arabia"
       },
       "home_goals": 4,
       "away_goals": 0,
+      "winner_code": "ESP",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760453"
+      "espn_event_id": "760453",
+      "kickoff": "2026-06-21T16:00Z"
     },
     {
       "match_id": "GH2_uruguay_cape_verde",
-      "source_id": "66457000",
+      "source_id": "760450",
       "stage": "group",
       "group": "H",
       "matchday": 2,
@@ -1011,15 +1555,27 @@
         "code": "CPV",
         "source": "Cabo Verde"
       },
+      "actual_home_team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "source": "Uruguay"
+      },
+      "actual_away_team": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "source": "Cape Verde"
+      },
       "home_goals": 2,
       "away_goals": 2,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760450"
+      "espn_event_id": "760450",
+      "kickoff": "2026-06-21T22:00Z"
     },
     {
       "match_id": "GH3_cape_verde_saudi_arabia",
-      "source_id": "66457004",
+      "source_id": "760478",
       "stage": "group",
       "group": "H",
       "matchday": 3,
@@ -1033,14 +1589,27 @@
         "code": "KSA",
         "source": "Arabia Saudita"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Cape Verde",
+        "code": "CPV",
+        "source": "Cape Verde"
+      },
+      "actual_away_team": {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "source": "Saudi Arabia"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760478",
+      "kickoff": "2026-06-27T00:00Z"
     },
     {
       "match_id": "GH3_uruguay_spain",
-      "source_id": "66457002",
+      "source_id": "760479",
       "stage": "group",
       "group": "H",
       "matchday": 3,
@@ -1054,14 +1623,27 @@
         "code": "ESP",
         "source": "España"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Uruguay",
+        "code": "URU",
+        "source": "Uruguay"
+      },
+      "actual_away_team": {
+        "name": "Spain",
+        "code": "ESP",
+        "source": "Spain"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760479",
+      "kickoff": "2026-06-27T00:00Z"
     },
     {
       "match_id": "GI1_france_senegal",
-      "source_id": "66457006",
+      "source_id": "760432",
       "stage": "group",
       "group": "I",
       "matchday": 1,
@@ -1071,19 +1653,31 @@
         "source": "Francia"
       },
       "away_team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "source": "Senegal"
+      },
+      "actual_home_team": {
+        "name": "France",
+        "code": "FRA",
+        "source": "France"
+      },
+      "actual_away_team": {
         "name": "Senegal",
         "code": "SEN",
         "source": "Senegal"
       },
       "home_goals": 3,
       "away_goals": 1,
+      "winner_code": "FRA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760432"
+      "espn_event_id": "760432",
+      "kickoff": "2026-06-16T19:00Z"
     },
     {
       "match_id": "GI1_iraq_norway",
-      "source_id": "66457008",
+      "source_id": "760430",
       "stage": "group",
       "group": "I",
       "matchday": 1,
@@ -1097,15 +1691,27 @@
         "code": "NOR",
         "source": "Noruega"
       },
+      "actual_home_team": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "source": "Iraq"
+      },
+      "actual_away_team": {
+        "name": "Norway",
+        "code": "NOR",
+        "source": "Norway"
+      },
       "home_goals": 1,
       "away_goals": 4,
+      "winner_code": "NOR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760430"
+      "espn_event_id": "760430",
+      "kickoff": "2026-06-16T22:00Z"
     },
     {
       "match_id": "GI2_france_iraq",
-      "source_id": "66457010",
+      "source_id": "760457",
       "stage": "group",
       "group": "I",
       "matchday": 2,
@@ -1119,15 +1725,27 @@
         "code": "IRQ",
         "source": "Irak"
       },
+      "actual_home_team": {
+        "name": "France",
+        "code": "FRA",
+        "source": "France"
+      },
+      "actual_away_team": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "source": "Iraq"
+      },
       "home_goals": 3,
       "away_goals": 0,
+      "winner_code": "FRA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760457"
+      "espn_event_id": "760457",
+      "kickoff": "2026-06-22T21:00Z"
     },
     {
       "match_id": "GI2_norway_senegal",
-      "source_id": "66457012",
+      "source_id": "760454",
       "stage": "group",
       "group": "I",
       "matchday": 2,
@@ -1137,19 +1755,31 @@
         "source": "Noruega"
       },
       "away_team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "source": "Senegal"
+      },
+      "actual_home_team": {
+        "name": "Norway",
+        "code": "NOR",
+        "source": "Norway"
+      },
+      "actual_away_team": {
         "name": "Senegal",
         "code": "SEN",
         "source": "Senegal"
       },
       "home_goals": 3,
       "away_goals": 2,
+      "winner_code": "NOR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760454"
+      "espn_event_id": "760454",
+      "kickoff": "2026-06-23T00:00Z"
     },
     {
       "match_id": "GI3_norway_france",
-      "source_id": "66457014",
+      "source_id": "760475",
       "stage": "group",
       "group": "I",
       "matchday": 3,
@@ -1163,14 +1793,27 @@
         "code": "FRA",
         "source": "Francia"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Norway",
+        "code": "NOR",
+        "source": "Norway"
+      },
+      "actual_away_team": {
+        "name": "France",
+        "code": "FRA",
+        "source": "France"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760475",
+      "kickoff": "2026-06-26T19:00Z"
     },
     {
       "match_id": "GI3_senegal_iraq",
-      "source_id": "66457016",
+      "source_id": "760474",
       "stage": "group",
       "group": "I",
       "matchday": 3,
@@ -1184,14 +1827,27 @@
         "code": "IRQ",
         "source": "Irak"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Senegal",
+        "code": "SEN",
+        "source": "Senegal"
+      },
+      "actual_away_team": {
+        "name": "Iraq",
+        "code": "IRQ",
+        "source": "Iraq"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760474",
+      "kickoff": "2026-06-26T19:00Z"
     },
     {
       "match_id": "GJ1_argentina_algeria",
-      "source_id": "66457018",
+      "source_id": "760433",
       "stage": "group",
       "group": "J",
       "matchday": 1,
@@ -1205,15 +1861,27 @@
         "code": "DZA",
         "source": "Argelia"
       },
+      "actual_home_team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
+      },
+      "actual_away_team": {
+        "name": "Algeria",
+        "code": "ALG",
+        "source": "Algeria"
+      },
       "home_goals": 3,
       "away_goals": 0,
+      "winner_code": "ARG",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760433"
+      "espn_event_id": "760433",
+      "kickoff": "2026-06-17T01:00Z"
     },
     {
       "match_id": "GJ1_austria_jordan",
-      "source_id": "66457020",
+      "source_id": "760431",
       "stage": "group",
       "group": "J",
       "matchday": 1,
@@ -1227,15 +1895,27 @@
         "code": "JOR",
         "source": "Jordania"
       },
+      "actual_home_team": {
+        "name": "Austria",
+        "code": "AUT",
+        "source": "Austria"
+      },
+      "actual_away_team": {
+        "name": "Jordan",
+        "code": "JOR",
+        "source": "Jordan"
+      },
       "home_goals": 3,
       "away_goals": 1,
+      "winner_code": "AUT",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760431"
+      "espn_event_id": "760431",
+      "kickoff": "2026-06-17T04:00Z"
     },
     {
       "match_id": "GJ2_argentina_austria",
-      "source_id": "66457022",
+      "source_id": "760456",
       "stage": "group",
       "group": "J",
       "matchday": 2,
@@ -1245,19 +1925,31 @@
         "source": "Argentina"
       },
       "away_team": {
+        "name": "Austria",
+        "code": "AUT",
+        "source": "Austria"
+      },
+      "actual_home_team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
+      },
+      "actual_away_team": {
         "name": "Austria",
         "code": "AUT",
         "source": "Austria"
       },
       "home_goals": 2,
       "away_goals": 0,
+      "winner_code": "ARG",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760456"
+      "espn_event_id": "760456",
+      "kickoff": "2026-06-22T17:00Z"
     },
     {
       "match_id": "GJ2_jordan_algeria",
-      "source_id": "66457024",
+      "source_id": "760455",
       "stage": "group",
       "group": "J",
       "matchday": 2,
@@ -1271,15 +1963,27 @@
         "code": "DZA",
         "source": "Argelia"
       },
+      "actual_home_team": {
+        "name": "Jordan",
+        "code": "JOR",
+        "source": "Jordan"
+      },
+      "actual_away_team": {
+        "name": "Algeria",
+        "code": "ALG",
+        "source": "Algeria"
+      },
       "home_goals": 1,
       "away_goals": 2,
+      "winner_code": "ALG",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760455"
+      "espn_event_id": "760455",
+      "kickoff": "2026-06-23T03:00Z"
     },
     {
       "match_id": "GJ3_algeria_austria",
-      "source_id": "66457028",
+      "source_id": "760484",
       "stage": "group",
       "group": "J",
       "matchday": 3,
@@ -1293,14 +1997,27 @@
         "code": "AUT",
         "source": "Austria"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Algeria",
+        "code": "ALG",
+        "source": "Algeria"
+      },
+      "actual_away_team": {
+        "name": "Austria",
+        "code": "AUT",
+        "source": "Austria"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760484",
+      "kickoff": "2026-06-28T02:00Z"
     },
     {
       "match_id": "GJ3_jordan_argentina",
-      "source_id": "66457026",
+      "source_id": "760483",
       "stage": "group",
       "group": "J",
       "matchday": 3,
@@ -1314,14 +2031,27 @@
         "code": "ARG",
         "source": "Argentina"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Jordan",
+        "code": "JOR",
+        "source": "Jordan"
+      },
+      "actual_away_team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760483",
+      "kickoff": "2026-06-28T02:00Z"
     },
     {
       "match_id": "GK1_portugal_dr_congo",
-      "source_id": "66457030",
+      "source_id": "760435",
       "stage": "group",
       "group": "K",
       "matchday": 1,
@@ -1335,15 +2065,27 @@
         "code": "COD",
         "source": "RD Congo"
       },
+      "actual_home_team": {
+        "name": "Portugal",
+        "code": "POR",
+        "source": "Portugal"
+      },
+      "actual_away_team": {
+        "name": "Congo DR",
+        "code": "COD",
+        "source": "Congo DR"
+      },
       "home_goals": 1,
       "away_goals": 1,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760435"
+      "espn_event_id": "760435",
+      "kickoff": "2026-06-17T17:00Z"
     },
     {
       "match_id": "GK1_uzbekistan_colombia",
-      "source_id": "66457032",
+      "source_id": "760436",
       "stage": "group",
       "group": "K",
       "matchday": 1,
@@ -1353,19 +2095,31 @@
         "source": "Uzbekistán"
       },
       "away_team": {
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
+      },
+      "actual_home_team": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "source": "Uzbekistan"
+      },
+      "actual_away_team": {
         "name": "Colombia",
         "code": "COL",
         "source": "Colombia"
       },
       "home_goals": 1,
       "away_goals": 3,
+      "winner_code": "COL",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760436"
+      "espn_event_id": "760436",
+      "kickoff": "2026-06-18T02:00Z"
     },
     {
       "match_id": "GK2_colombia_dr_congo",
-      "source_id": "66457036",
+      "source_id": "760459",
       "stage": "group",
       "group": "K",
       "matchday": 2,
@@ -1379,15 +2133,27 @@
         "code": "COD",
         "source": "RD Congo"
       },
+      "actual_home_team": {
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
+      },
+      "actual_away_team": {
+        "name": "Congo DR",
+        "code": "COD",
+        "source": "Congo DR"
+      },
       "home_goals": 1,
       "away_goals": 0,
+      "winner_code": "COL",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760459"
+      "espn_event_id": "760459",
+      "kickoff": "2026-06-24T02:00Z"
     },
     {
       "match_id": "GK2_portugal_uzbekistan",
-      "source_id": "66457034",
+      "source_id": "760461",
       "stage": "group",
       "group": "K",
       "matchday": 2,
@@ -1401,15 +2167,27 @@
         "code": "UZB",
         "source": "Uzbekistán"
       },
+      "actual_home_team": {
+        "name": "Portugal",
+        "code": "POR",
+        "source": "Portugal"
+      },
+      "actual_away_team": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "source": "Uzbekistan"
+      },
       "home_goals": 5,
       "away_goals": 0,
+      "winner_code": "POR",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760461"
+      "espn_event_id": "760461",
+      "kickoff": "2026-06-23T17:00Z"
     },
     {
       "match_id": "GK3_colombia_portugal",
-      "source_id": "66457038",
+      "source_id": "760481",
       "stage": "group",
       "group": "K",
       "matchday": 3,
@@ -1423,14 +2201,27 @@
         "code": "POR",
         "source": "Portugal"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
+      },
+      "actual_away_team": {
+        "name": "Portugal",
+        "code": "POR",
+        "source": "Portugal"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760481",
+      "kickoff": "2026-06-27T23:30Z"
     },
     {
       "match_id": "GK3_dr_congo_uzbekistan",
-      "source_id": "66457040",
+      "source_id": "760482",
       "stage": "group",
       "group": "K",
       "matchday": 3,
@@ -1444,14 +2235,27 @@
         "code": "UZB",
         "source": "Uzbekistán"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Congo DR",
+        "code": "COD",
+        "source": "Congo DR"
+      },
+      "actual_away_team": {
+        "name": "Uzbekistan",
+        "code": "UZB",
+        "source": "Uzbekistan"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760482",
+      "kickoff": "2026-06-27T23:30Z"
     },
     {
       "match_id": "GL1_england_croatia",
-      "source_id": "66457042",
+      "source_id": "760437",
       "stage": "group",
       "group": "L",
       "matchday": 1,
@@ -1464,16 +2268,28 @@
         "name": "Croatia",
         "code": "CRO",
         "source": "Croacia"
+      },
+      "actual_home_team": {
+        "name": "England",
+        "code": "ENG",
+        "source": "England"
+      },
+      "actual_away_team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "source": "Croatia"
       },
       "home_goals": 4,
       "away_goals": 2,
+      "winner_code": "ENG",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760437"
+      "espn_event_id": "760437",
+      "kickoff": "2026-06-17T20:00Z"
     },
     {
       "match_id": "GL1_ghana_panama",
-      "source_id": "66457044",
+      "source_id": "760434",
       "stage": "group",
       "group": "L",
       "matchday": 1,
@@ -1487,15 +2303,27 @@
         "code": "PAN",
         "source": "Panamá"
       },
+      "actual_home_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "source": "Ghana"
+      },
+      "actual_away_team": {
+        "name": "Panama",
+        "code": "PAN",
+        "source": "Panama"
+      },
       "home_goals": 1,
       "away_goals": 0,
+      "winner_code": "GHA",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760434"
+      "espn_event_id": "760434",
+      "kickoff": "2026-06-17T23:00Z"
     },
     {
       "match_id": "GL2_england_ghana",
-      "source_id": "66457046",
+      "source_id": "760458",
       "stage": "group",
       "group": "L",
       "matchday": 2,
@@ -1505,19 +2333,31 @@
         "source": "Inglaterra"
       },
       "away_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "source": "Ghana"
+      },
+      "actual_home_team": {
+        "name": "England",
+        "code": "ENG",
+        "source": "England"
+      },
+      "actual_away_team": {
         "name": "Ghana",
         "code": "GHA",
         "source": "Ghana"
       },
       "home_goals": 0,
       "away_goals": 0,
+      "winner_code": null,
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760458"
+      "espn_event_id": "760458",
+      "kickoff": "2026-06-23T20:00Z"
     },
     {
       "match_id": "GL2_panama_croatia",
-      "source_id": "66457048",
+      "source_id": "760460",
       "stage": "group",
       "group": "L",
       "matchday": 2,
@@ -1531,15 +2371,27 @@
         "code": "CRO",
         "source": "Croacia"
       },
+      "actual_home_team": {
+        "name": "Panama",
+        "code": "PAN",
+        "source": "Panama"
+      },
+      "actual_away_team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "source": "Croatia"
+      },
       "home_goals": 0,
       "away_goals": 1,
+      "winner_code": "CRO",
       "status": "finished",
       "source": "ESPN public scoreboard",
-      "espn_event_id": "760460"
+      "espn_event_id": "760460",
+      "kickoff": "2026-06-23T23:00Z"
     },
     {
       "match_id": "GL3_croatia_ghana",
-      "source_id": "66457052",
+      "source_id": "760480",
       "stage": "group",
       "group": "L",
       "matchday": 3,
@@ -1553,14 +2405,27 @@
         "code": "GHA",
         "source": "Ghana"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Croatia",
+        "code": "CRO",
+        "source": "Croatia"
+      },
+      "actual_away_team": {
+        "name": "Ghana",
+        "code": "GHA",
+        "source": "Ghana"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760480",
+      "kickoff": "2026-06-27T21:00Z"
     },
     {
       "match_id": "GL3_panama_england",
-      "source_id": "66457050",
+      "source_id": "760485",
       "stage": "group",
       "group": "L",
       "matchday": 3,
@@ -1574,10 +2439,1047 @@
         "code": "ENG",
         "source": "Inglaterra"
       },
-      "home_goals": null,
-      "away_goals": null,
+      "actual_home_team": {
+        "name": "Panama",
+        "code": "PAN",
+        "source": "Panama"
+      },
+      "actual_away_team": {
+        "name": "England",
+        "code": "ENG",
+        "source": "England"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
       "status": "scheduled",
-      "source": "ESPN public scoreboard"
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760485",
+      "kickoff": "2026-06-27T21:00Z"
+    },
+    {
+      "match_id": "ESPN_760486",
+      "source_id": "760486",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "source": "South Africa"
+      },
+      "away_team": {
+        "name": "Canada",
+        "code": "CAN",
+        "source": "Canada"
+      },
+      "actual_home_team": {
+        "name": "South Africa",
+        "code": "RSA",
+        "source": "South Africa"
+      },
+      "actual_away_team": {
+        "name": "Canada",
+        "code": "CAN",
+        "source": "Canada"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760486",
+      "kickoff": "2026-06-28T19:00Z"
+    },
+    {
+      "match_id": "ESPN_760487",
+      "source_id": "760487",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brazil"
+      },
+      "away_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japan"
+      },
+      "actual_home_team": {
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brazil"
+      },
+      "actual_away_team": {
+        "name": "Japan",
+        "code": "JPN",
+        "source": "Japan"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760487",
+      "kickoff": "2026-06-29T17:00Z"
+    },
+    {
+      "match_id": "ESPN_760489",
+      "source_id": "760489",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Germany",
+        "code": "GER",
+        "source": "Germany"
+      },
+      "away_team": {
+        "name": "Third Place Group A/B/C/D/F",
+        "code": "3RD",
+        "source": "Third Place Group A/B/C/D/F"
+      },
+      "actual_home_team": {
+        "name": "Germany",
+        "code": "GER",
+        "source": "Germany"
+      },
+      "actual_away_team": {
+        "name": "Third Place Group A/B/C/D/F",
+        "code": "3RD",
+        "source": "Third Place Group A/B/C/D/F"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760489",
+      "kickoff": "2026-06-29T20:30Z"
+    },
+    {
+      "match_id": "ESPN_760488",
+      "source_id": "760488",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Netherlands"
+      },
+      "away_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "source": "Morocco"
+      },
+      "actual_home_team": {
+        "name": "Netherlands",
+        "code": "NED",
+        "source": "Netherlands"
+      },
+      "actual_away_team": {
+        "name": "Morocco",
+        "code": "MAR",
+        "source": "Morocco"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760488",
+      "kickoff": "2026-06-30T01:00Z"
+    },
+    {
+      "match_id": "ESPN_760490",
+      "source_id": "760490",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Ivory Coast",
+        "code": "CIV",
+        "source": "Ivory Coast"
+      },
+      "away_team": {
+        "name": "Group I 2nd Place",
+        "code": "2I",
+        "source": "Group I 2nd Place"
+      },
+      "actual_home_team": {
+        "name": "Ivory Coast",
+        "code": "CIV",
+        "source": "Ivory Coast"
+      },
+      "actual_away_team": {
+        "name": "Group I 2nd Place",
+        "code": "2I",
+        "source": "Group I 2nd Place"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760490",
+      "kickoff": "2026-06-30T17:00Z"
+    },
+    {
+      "match_id": "ESPN_760492",
+      "source_id": "760492",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Group I Winner",
+        "code": "1I",
+        "source": "Group I Winner"
+      },
+      "away_team": {
+        "name": "Third Place Group C/D/F/G/H",
+        "code": "3RD",
+        "source": "Third Place Group C/D/F/G/H"
+      },
+      "actual_home_team": {
+        "name": "Group I Winner",
+        "code": "1I",
+        "source": "Group I Winner"
+      },
+      "actual_away_team": {
+        "name": "Third Place Group C/D/F/G/H",
+        "code": "3RD",
+        "source": "Third Place Group C/D/F/G/H"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760492",
+      "kickoff": "2026-06-30T21:00Z"
+    },
+    {
+      "match_id": "ESPN_760491",
+      "source_id": "760491",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "source": "Mexico"
+      },
+      "away_team": {
+        "name": "Third Place Group C/E/F/H/I",
+        "code": "3RD",
+        "source": "Third Place Group C/E/F/H/I"
+      },
+      "actual_home_team": {
+        "name": "Mexico",
+        "code": "MEX",
+        "source": "Mexico"
+      },
+      "actual_away_team": {
+        "name": "Third Place Group C/E/F/H/I",
+        "code": "3RD",
+        "source": "Third Place Group C/E/F/H/I"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760491",
+      "kickoff": "2026-07-01T01:00Z"
+    },
+    {
+      "match_id": "ESPN_760495",
+      "source_id": "760495",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Group L Winner",
+        "code": "1L",
+        "source": "Group L Winner"
+      },
+      "away_team": {
+        "name": "Third Place Group E/H/I/J/K",
+        "code": "3RD",
+        "source": "Third Place Group E/H/I/J/K"
+      },
+      "actual_home_team": {
+        "name": "Group L Winner",
+        "code": "1L",
+        "source": "Group L Winner"
+      },
+      "actual_away_team": {
+        "name": "Third Place Group E/H/I/J/K",
+        "code": "3RD",
+        "source": "Third Place Group E/H/I/J/K"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760495",
+      "kickoff": "2026-07-01T16:00Z"
+    },
+    {
+      "match_id": "ESPN_760493",
+      "source_id": "760493",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Group G Winner",
+        "code": "1G",
+        "source": "Group G Winner"
+      },
+      "away_team": {
+        "name": "Third Place Group A/E/H/I/J",
+        "code": "3RD",
+        "source": "Third Place Group A/E/H/I/J"
+      },
+      "actual_home_team": {
+        "name": "Group G Winner",
+        "code": "1G",
+        "source": "Group G Winner"
+      },
+      "actual_away_team": {
+        "name": "Third Place Group A/E/H/I/J",
+        "code": "3RD",
+        "source": "Third Place Group A/E/H/I/J"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760493",
+      "kickoff": "2026-07-01T20:00Z"
+    },
+    {
+      "match_id": "ESPN_760494",
+      "source_id": "760494",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "United States"
+      },
+      "away_team": {
+        "name": "Bosnia-Herzegovina",
+        "code": "BIH",
+        "source": "Bosnia-Herzegovina"
+      },
+      "actual_home_team": {
+        "name": "United States",
+        "code": "USA",
+        "source": "United States"
+      },
+      "actual_away_team": {
+        "name": "Bosnia-Herzegovina",
+        "code": "BIH",
+        "source": "Bosnia-Herzegovina"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760494",
+      "kickoff": "2026-07-02T00:00Z"
+    },
+    {
+      "match_id": "ESPN_760497",
+      "source_id": "760497",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Group H Winner",
+        "code": "1H",
+        "source": "Group H Winner"
+      },
+      "away_team": {
+        "name": "Group J 2nd Place",
+        "code": "2J",
+        "source": "Group J 2nd Place"
+      },
+      "actual_home_team": {
+        "name": "Group H Winner",
+        "code": "1H",
+        "source": "Group H Winner"
+      },
+      "actual_away_team": {
+        "name": "Group J 2nd Place",
+        "code": "2J",
+        "source": "Group J 2nd Place"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760497",
+      "kickoff": "2026-07-02T19:00Z"
+    },
+    {
+      "match_id": "ESPN_760496",
+      "source_id": "760496",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Group K 2nd Place",
+        "code": "2K",
+        "source": "Group K 2nd Place"
+      },
+      "away_team": {
+        "name": "Group L 2nd Place",
+        "code": "2L",
+        "source": "Group L 2nd Place"
+      },
+      "actual_home_team": {
+        "name": "Group K 2nd Place",
+        "code": "2K",
+        "source": "Group K 2nd Place"
+      },
+      "actual_away_team": {
+        "name": "Group L 2nd Place",
+        "code": "2L",
+        "source": "Group L 2nd Place"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760496",
+      "kickoff": "2026-07-02T23:00Z"
+    },
+    {
+      "match_id": "ESPN_760498",
+      "source_id": "760498",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Switzerland"
+      },
+      "away_team": {
+        "name": "Third Place Group E/F/G/I/J",
+        "code": "3RD",
+        "source": "Third Place Group E/F/G/I/J"
+      },
+      "actual_home_team": {
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Switzerland"
+      },
+      "actual_away_team": {
+        "name": "Third Place Group E/F/G/I/J",
+        "code": "3RD",
+        "source": "Third Place Group E/F/G/I/J"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760498",
+      "kickoff": "2026-07-03T03:00Z"
+    },
+    {
+      "match_id": "ESPN_760499",
+      "source_id": "760499",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Australia",
+        "code": "AUS",
+        "source": "Australia"
+      },
+      "away_team": {
+        "name": "Group G 2nd Place",
+        "code": "2G",
+        "source": "Group G 2nd Place"
+      },
+      "actual_home_team": {
+        "name": "Australia",
+        "code": "AUS",
+        "source": "Australia"
+      },
+      "actual_away_team": {
+        "name": "Group G 2nd Place",
+        "code": "2G",
+        "source": "Group G 2nd Place"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760499",
+      "kickoff": "2026-07-03T18:00Z"
+    },
+    {
+      "match_id": "ESPN_760500",
+      "source_id": "760500",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
+      },
+      "away_team": {
+        "name": "Group H 2nd Place",
+        "code": "2H",
+        "source": "Group H 2nd Place"
+      },
+      "actual_home_team": {
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
+      },
+      "actual_away_team": {
+        "name": "Group H 2nd Place",
+        "code": "2H",
+        "source": "Group H 2nd Place"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760500",
+      "kickoff": "2026-07-03T22:00Z"
+    },
+    {
+      "match_id": "ESPN_760501",
+      "source_id": "760501",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Group K Winner",
+        "code": "1K",
+        "source": "Group K Winner"
+      },
+      "away_team": {
+        "name": "Third Place Group D/E/I/J/L",
+        "code": "3RD",
+        "source": "Third Place Group D/E/I/J/L"
+      },
+      "actual_home_team": {
+        "name": "Group K Winner",
+        "code": "1K",
+        "source": "Group K Winner"
+      },
+      "actual_away_team": {
+        "name": "Third Place Group D/E/I/J/L",
+        "code": "3RD",
+        "source": "Third Place Group D/E/I/J/L"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760501",
+      "kickoff": "2026-07-04T01:30Z"
+    },
+    {
+      "match_id": "ESPN_760502",
+      "source_id": "760502",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 1 Winner",
+        "code": "RD32",
+        "source": "Round of 32 1 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 3 Winner",
+        "code": "RD32",
+        "source": "Round of 32 3 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 1 Winner",
+        "code": "RD32",
+        "source": "Round of 32 1 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 3 Winner",
+        "code": "RD32",
+        "source": "Round of 32 3 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760502",
+      "kickoff": "2026-07-04T17:00Z"
+    },
+    {
+      "match_id": "ESPN_760503",
+      "source_id": "760503",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 2 Winner",
+        "code": "RD32",
+        "source": "Round of 32 2 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 5 Winner",
+        "code": "RD32",
+        "source": "Round of 32 5 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 2 Winner",
+        "code": "RD32",
+        "source": "Round of 32 2 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 5 Winner",
+        "code": "RD32",
+        "source": "Round of 32 5 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760503",
+      "kickoff": "2026-07-04T21:00Z"
+    },
+    {
+      "match_id": "ESPN_760504",
+      "source_id": "760504",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 4 Winner",
+        "code": "RD32",
+        "source": "Round of 32 4 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 6 Winner",
+        "code": "RD32",
+        "source": "Round of 32 6 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 4 Winner",
+        "code": "RD32",
+        "source": "Round of 32 4 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 6 Winner",
+        "code": "RD32",
+        "source": "Round of 32 6 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760504",
+      "kickoff": "2026-07-05T20:00Z"
+    },
+    {
+      "match_id": "ESPN_760505",
+      "source_id": "760505",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 7 Winner",
+        "code": "RD32",
+        "source": "Round of 32 7 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 8 Winner",
+        "code": "RD32",
+        "source": "Round of 32 8 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 7 Winner",
+        "code": "RD32",
+        "source": "Round of 32 7 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 8 Winner",
+        "code": "RD32",
+        "source": "Round of 32 8 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760505",
+      "kickoff": "2026-07-06T00:00Z"
+    },
+    {
+      "match_id": "ESPN_760506",
+      "source_id": "760506",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 11 Winner",
+        "code": "RD32",
+        "source": "Round of 32 11 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 12 Winner",
+        "code": "RD32",
+        "source": "Round of 32 12 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 11 Winner",
+        "code": "RD32",
+        "source": "Round of 32 11 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 12 Winner",
+        "code": "RD32",
+        "source": "Round of 32 12 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760506",
+      "kickoff": "2026-07-06T19:00Z"
+    },
+    {
+      "match_id": "ESPN_760507",
+      "source_id": "760507",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 9 Winner",
+        "code": "RD32",
+        "source": "Round of 32 9 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 10 Winner",
+        "code": "RD32",
+        "source": "Round of 32 10 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 9 Winner",
+        "code": "RD32",
+        "source": "Round of 32 9 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 10 Winner",
+        "code": "RD32",
+        "source": "Round of 32 10 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760507",
+      "kickoff": "2026-07-07T00:00Z"
+    },
+    {
+      "match_id": "ESPN_760509",
+      "source_id": "760509",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 14 Winner",
+        "code": "RD32",
+        "source": "Round of 32 14 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 16 Winner",
+        "code": "RD32",
+        "source": "Round of 32 16 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 14 Winner",
+        "code": "RD32",
+        "source": "Round of 32 14 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 16 Winner",
+        "code": "RD32",
+        "source": "Round of 32 16 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760509",
+      "kickoff": "2026-07-07T16:00Z"
+    },
+    {
+      "match_id": "ESPN_760508",
+      "source_id": "760508",
+      "stage": "round_of_32",
+      "home_team": {
+        "name": "Round of 32 13 Winner",
+        "code": "RD32",
+        "source": "Round of 32 13 Winner"
+      },
+      "away_team": {
+        "name": "Round of 32 15 Winner",
+        "code": "RD32",
+        "source": "Round of 32 15 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 32 13 Winner",
+        "code": "RD32",
+        "source": "Round of 32 13 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 32 15 Winner",
+        "code": "RD32",
+        "source": "Round of 32 15 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760508",
+      "kickoff": "2026-07-07T20:00Z"
+    },
+    {
+      "match_id": "ESPN_760510",
+      "source_id": "760510",
+      "stage": "round_of_16",
+      "home_team": {
+        "name": "Round of 16 1 Winner",
+        "code": "RD16 W1",
+        "source": "Round of 16 1 Winner"
+      },
+      "away_team": {
+        "name": "Round of 16 2 Winner",
+        "code": "RD16 W2",
+        "source": "Round of 16 2 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 16 1 Winner",
+        "code": "RD16 W1",
+        "source": "Round of 16 1 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 16 2 Winner",
+        "code": "RD16 W2",
+        "source": "Round of 16 2 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760510",
+      "kickoff": "2026-07-09T20:00Z"
+    },
+    {
+      "match_id": "ESPN_760511",
+      "source_id": "760511",
+      "stage": "round_of_16",
+      "home_team": {
+        "name": "Round of 16 5 Winner",
+        "code": "RD16 W5",
+        "source": "Round of 16 5 Winner"
+      },
+      "away_team": {
+        "name": "Round of 16 6 Winner",
+        "code": "RD16 W6",
+        "source": "Round of 16 6 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 16 5 Winner",
+        "code": "RD16 W5",
+        "source": "Round of 16 5 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 16 6 Winner",
+        "code": "RD16 W6",
+        "source": "Round of 16 6 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760511",
+      "kickoff": "2026-07-10T19:00Z"
+    },
+    {
+      "match_id": "ESPN_760512",
+      "source_id": "760512",
+      "stage": "round_of_16",
+      "home_team": {
+        "name": "Round of 16 3 Winner",
+        "code": "RD16 W3",
+        "source": "Round of 16 3 Winner"
+      },
+      "away_team": {
+        "name": "Round of 16 4 Winner",
+        "code": "RD16 W4",
+        "source": "Round of 16 4 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 16 3 Winner",
+        "code": "RD16 W3",
+        "source": "Round of 16 3 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 16 4 Winner",
+        "code": "RD16 W4",
+        "source": "Round of 16 4 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760512",
+      "kickoff": "2026-07-11T21:00Z"
+    },
+    {
+      "match_id": "ESPN_760513",
+      "source_id": "760513",
+      "stage": "round_of_16",
+      "home_team": {
+        "name": "Round of 16 7 Winner",
+        "code": "RD16 W7",
+        "source": "Round of 16 7 Winner"
+      },
+      "away_team": {
+        "name": "Round of 16 8 Winner",
+        "code": "RD16 W8",
+        "source": "Round of 16 8 Winner"
+      },
+      "actual_home_team": {
+        "name": "Round of 16 7 Winner",
+        "code": "RD16 W7",
+        "source": "Round of 16 7 Winner"
+      },
+      "actual_away_team": {
+        "name": "Round of 16 8 Winner",
+        "code": "RD16 W8",
+        "source": "Round of 16 8 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760513",
+      "kickoff": "2026-07-12T01:00Z"
+    },
+    {
+      "match_id": "ESPN_760514",
+      "source_id": "760514",
+      "stage": "quarterfinals",
+      "home_team": {
+        "name": "Quarterfinal 1 Winner",
+        "code": "QFW1",
+        "source": "Quarterfinal 1 Winner"
+      },
+      "away_team": {
+        "name": "Quarterfinal 2 Winner",
+        "code": "QFW2",
+        "source": "Quarterfinal 2 Winner"
+      },
+      "actual_home_team": {
+        "name": "Quarterfinal 1 Winner",
+        "code": "QFW1",
+        "source": "Quarterfinal 1 Winner"
+      },
+      "actual_away_team": {
+        "name": "Quarterfinal 2 Winner",
+        "code": "QFW2",
+        "source": "Quarterfinal 2 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760514",
+      "kickoff": "2026-07-14T19:00Z"
+    },
+    {
+      "match_id": "ESPN_760515",
+      "source_id": "760515",
+      "stage": "quarterfinals",
+      "home_team": {
+        "name": "Quarterfinal 3 Winner",
+        "code": "QFW3",
+        "source": "Quarterfinal 3 Winner"
+      },
+      "away_team": {
+        "name": "Quarterfinal 4 Winner",
+        "code": "QW4",
+        "source": "Quarterfinal 4 Winner"
+      },
+      "actual_home_team": {
+        "name": "Quarterfinal 3 Winner",
+        "code": "QFW3",
+        "source": "Quarterfinal 3 Winner"
+      },
+      "actual_away_team": {
+        "name": "Quarterfinal 4 Winner",
+        "code": "QW4",
+        "source": "Quarterfinal 4 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760515",
+      "kickoff": "2026-07-15T19:00Z"
+    },
+    {
+      "match_id": "ESPN_760516",
+      "source_id": "760516",
+      "stage": "semifinals",
+      "home_team": {
+        "name": "Semifinal 1 Loser",
+        "code": "SF L1",
+        "source": "Semifinal 1 Loser"
+      },
+      "away_team": {
+        "name": "Semifinal 2 Loser",
+        "code": "SF L2",
+        "source": "Semifinal 2 Loser"
+      },
+      "actual_home_team": {
+        "name": "Semifinal 1 Loser",
+        "code": "SF L1",
+        "source": "Semifinal 1 Loser"
+      },
+      "actual_away_team": {
+        "name": "Semifinal 2 Loser",
+        "code": "SF L2",
+        "source": "Semifinal 2 Loser"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760516",
+      "kickoff": "2026-07-18T21:00Z"
+    },
+    {
+      "match_id": "ESPN_760517",
+      "source_id": "760517",
+      "stage": "semifinals",
+      "home_team": {
+        "name": "Semifinal 1 Winner",
+        "code": "SFW1",
+        "source": "Semifinal 1 Winner"
+      },
+      "away_team": {
+        "name": "Semifinal 2 Winner",
+        "code": "SFW2",
+        "source": "Semifinal 2 Winner"
+      },
+      "actual_home_team": {
+        "name": "Semifinal 1 Winner",
+        "code": "SFW1",
+        "source": "Semifinal 1 Winner"
+      },
+      "actual_away_team": {
+        "name": "Semifinal 2 Winner",
+        "code": "SFW2",
+        "source": "Semifinal 2 Winner"
+      },
+      "home_goals": 0,
+      "away_goals": 0,
+      "winner_code": null,
+      "status": "scheduled",
+      "source": "ESPN public scoreboard",
+      "espn_event_id": "760517",
+      "kickoff": "2026-07-19T19:00Z"
     }
   ]
 }
