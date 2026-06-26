@@ -258,6 +258,58 @@
     .bad { color: var(--bad); }
     .muted { color: var(--muted); }
 
+    .mobile-summary {
+      display: none;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .mobile-summary-row {
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) 64px;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 11px;
+      background: rgba(17,24,39,.72);
+      box-shadow: var(--shadow);
+    }
+
+    .mobile-summary-row .rank {
+      min-width: 26px;
+      height: 26px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      font-size: .82rem;
+    }
+
+    .mobile-summary-row .name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-weight: 800;
+    }
+
+    .mobile-summary-row .total {
+      text-align: right;
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .mobile-detail-title {
+      display: none;
+      margin: 18px 0 10px;
+      color: var(--muted);
+      font-size: .82rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-weight: 900;
+    }
+
     .mobile-leaderboard {
       display: none;
       gap: 10px;
@@ -386,8 +438,13 @@
         display: none;
       }
 
+      .mobile-summary,
       .mobile-leaderboard {
         display: grid;
+      }
+
+      .mobile-detail-title {
+        display: block;
       }
 
       .breakdown {
@@ -456,7 +513,7 @@
       <div class="card" style="margin-bottom: 14px;">
         <h2>Clasificación</h2>
         <p style="margin: 0;">
-          En móvil se muestra en tarjetas. Pulsa en un participante para ver el detalle de puntos y trazabilidad.
+          En móvil primero verás la clasificación resumida y después las tarjetas con el detalle. Pulsa en un participante para ver toda la trazabilidad.
         </p>
       </div>
 
@@ -482,7 +539,9 @@
         </table>
       </div>
 
-      <div id="leaderboardCards" class="mobile-leaderboard" aria-label="Clasificación móvil"></div>
+      <div id="leaderboardSummary" class="mobile-summary" aria-label="Clasificación resumida móvil"></div>
+      <div class="mobile-detail-title">Detalle por participante</div>
+      <div id="leaderboardCards" class="mobile-leaderboard" aria-label="Detalle de clasificación móvil"></div>
     </div>
 
     <aside class="card detail">
@@ -1177,8 +1236,10 @@ function resetGlobalCaches() {
 
 function renderLeaderboard(scores) {
   const body = document.getElementById("leaderboardBody");
+  const summary = document.getElementById("leaderboardSummary");
   const cards = document.getElementById("leaderboardCards");
   body.innerHTML = "";
+  if (summary) summary.innerHTML = "";
   if (cards) cards.innerHTML = "";
 
   function selectParticipant(row, target, shouldScroll = false) {
@@ -1215,6 +1276,17 @@ function renderLeaderboard(scores) {
 
     tr.addEventListener("click", () => selectParticipant(row, tr, false));
     body.appendChild(tr);
+
+    if (summary) {
+      const summaryRow = document.createElement("div");
+      summaryRow.className = "mobile-summary-row";
+      summaryRow.innerHTML = `
+        <span class="rank">${index + 1}</span>
+        <span class="name">${escapeHtml(row.name)}</span>
+        <span class="total">${fmtPts(row.total)}</span>
+      `;
+      summary.appendChild(summaryRow);
+    }
 
     if (cards) {
       const button = document.createElement("button");
