@@ -495,7 +495,7 @@
       <h1>MUNDIAL 2026</h1>
       <p class="subtitle">
         Clasificación de la porra. Ahora suma partidos de grupos, posiciones de grupo,
-        clasificados, eliminatorias y honores cuando haya datos disponibles.
+        clasificados, eliminatorias y premios finales cuando haya datos disponibles.
       </p>
     </div>
   </section>
@@ -981,6 +981,7 @@ function loserCode(match) {
 function buildActualStageTeams(results, groupData) {
   const stageTeams = {};
 
+  // Dieciseisavos se conocen por clasificación de grupos.
   for (const code of groupData.roundOf32 || []) {
     addToSet(stageTeams, "round_of_32", code);
   }
@@ -989,12 +990,16 @@ function buildActualStageTeams(results, groupData) {
     const stage = normalizeStage(match.stage);
     if (!stage || stage === "group") continue;
 
+    // No usamos fixtures futuros para decir que un equipo llegó a una ronda.
+    // Solo una eliminatoria terminada prueba que ambos equipos alcanzaron esa ronda.
+    if (!isFinished(match)) continue;
+
     const h = actualHomeCode(match);
     const a = actualAwayCode(match);
     addToSet(stageTeams, stage, h);
     addToSet(stageTeams, stage, a);
 
-    if (isFinished(match) && match.winner_code) {
+    if (match.winner_code) {
       const winner = String(match.winner_code).toUpperCase();
       const loser = loserCode(match);
 
@@ -1086,8 +1091,8 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
     details: []
   };
 
-  // Orden cronológico de eventos cerrados.
-  // Usamos source_row porque viene del Excel en el mismo orden temporal de la porra.
+  // Orden cronológico por cómo se va cerrando la porra.
+  // source_row viene del Excel y refleja el orden temporal en la hoja.
   const groupCloseSortKey = {};
   for (const m of entry.predictions?.group_matches || []) {
     if (!m.group) continue;
@@ -1109,12 +1114,12 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
   }
 
   const stageSortBase = {
-    round_of_32: 2000,
-    round_of_16: 3000,
-    quarterfinals: 4000,
-    semifinals: 5000,
-    third_place_match: 6000,
-    final: 7000
+    round_of_32: 200000,
+    round_of_16: 300000,
+    quarterfinals: 400000,
+    semifinals: 500000,
+    third_place_match: 600000,
+    final: 700000
   };
 
   // 1) Partidos de grupos.
@@ -1140,7 +1145,7 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
         type: "Partido grupo",
         title: `${teamName(predMatch.home_team)} - ${teamName(predMatch.away_team)}`,
         points: scored.points,
-        sortKey: Number(predMatch.source_row || 0),
+        sortKey: Number(predMatch.source_row || 0) * 100,
         meta: `${predMatch.prediction?.home_goals}-${predMatch.prediction?.away_goals} vs ${actual.home_goals}-${actual.away_goals} · ${scored.reason}`
       });
     }
@@ -1170,7 +1175,8 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
       type: "Posición grupo",
       title: `${rank}º Grupo ${group}: ${teamName(pos.team)}`,
       points,
-      sortKey: 1000 + Number(groupCloseSortKey[group] || pos.source_row || 0) + (5 - rank) / 10,
+      // Al cerrar un grupo, primero mostramos 1º, 2º, 3º y 4º.
+      sortKey: Number(groupCloseSortKey[group] || pos.source_row || 0) * 100 + 90 - rank,
       meta: hit
         ? "Posición exacta acertada"
         : `No acertada · real: ${actualRow.name || actualRow.code}`
@@ -1178,8 +1184,8 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
   }
 
   // 3) Clasificados a rondas.
-  // Trazabilidad: los 1º y 2º de grupos cerrados se evalúan al cerrar su grupo.
-  // Los mejores terceros de round_of_32 se evalúan solo cuando todos los grupos estén cerrados.
+  // No mostramos rondas futuras hasta que exista evidencia real de esa ronda.
+  // Para dieciseisavos, 1º y 2º se evalúan al cerrar su grupo; terceros, al cerrar todos.
   for (const qualifier of entry.predictions?.round_qualifiers || []) {
     const stage = normalizeStage(qualifier.stage);
     const predCode = teamCode(qualifier.team);
@@ -1200,16 +1206,13 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
     if (stage === "round_of_32") {
       const status = teamStatus[predCode];
 
-      // Si el grupo del equipo aún no ha cerrado, no hay nada que enseñar todavía.
       if (!status || !status.groupComplete) continue;
-
-      // Si queda 3º, puede clasificarse o no: se evalúa al cerrar todos los grupos.
       if (status.rank === 3 && !groupData.allGroupsComplete) continue;
 
-      // 1º/2º se evalúan al cerrar su grupo; 3º se evalúa al cerrar todos los grupos.
+      // En cada grupo cerrado, posiciones arriba y clasificados justo debajo.
       sortKey = status.rank === 3
-        ? 1100 + maxGroupCloseSortKey + 0.5
-        : 1100 + Number(status.groupCloseSortKey || 0);
+        ? maxGroupCloseSortKey * 100 + 70
+        : Number(status.groupCloseSortKey || 0) * 100 + 80 - status.rank;
     }
 
     const hit = actualSet.has(predCode);
@@ -1281,7 +1284,7 @@ function calculateParticipant(entry, predictions, results, config, honorsResults
       type: "Honor",
       title: honor.label || key,
       points,
-      sortKey: 8000 + Number(honor.source_row || 0),
+      sortKey: 800000 + Number(honor.source_row || 0),
       meta: hit
         ? `${honor.value?.name || honor.value?.source || honor.value?.code || predicted}`
         : `No acertado · predicho: ${honor.value?.name || honor.value?.source || honor.value?.code || predicted}`
@@ -1363,7 +1366,7 @@ function renderLeaderboard(scores) {
 function renderDetail(row) {
   const details = (row.details || []).slice().sort((a, b) =>
     Number(b.sortKey || 0) - Number(a.sortKey || 0) ||
-    Number(b.points || 0) - Number(a.points || 0) ||
+    String(a.type || "").localeCompare(String(b.type || "")) ||
     String(a.title || "").localeCompare(String(b.title || ""))
   );
   const positiveCount = details.filter(d => Number(d.points || 0) > 0).length;
