@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27T22:26:23.900324+00:00",
+    "last_updated": "2026-06-27T22:31:37.351453+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 66,
     "total_matches": 104,
@@ -2450,7 +2450,7 @@
         "source": "England"
       },
       "home_goals": 0,
-      "away_goals": 1,
+      "away_goals": 2,
       "winner_code": "ENG",
       "status": "live",
       "source": "ESPN public scoreboard",
