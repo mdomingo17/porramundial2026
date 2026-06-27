@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27T05:06:18.652158+00:00",
+    "last_updated": "2026-06-27T21:06:29.449796+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 66,
     "total_matches": 104,
@@ -2418,7 +2418,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "scheduled",
+      "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760480",
       "kickoff": "2026-06-27T21:00Z"
@@ -2452,7 +2452,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "scheduled",
+      "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760485",
       "kickoff": "2026-06-27T21:00Z"
@@ -2728,9 +2728,9 @@
         "source": "Third Place Group A/E/H/I/J"
       },
       "actual_home_team": {
-        "name": "Group G Winner",
-        "code": "1G",
-        "source": "Group G Winner"
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Belgium"
       },
       "actual_away_team": {
         "name": "Third Place Group A/E/H/I/J",
@@ -2893,9 +2893,9 @@
         "source": "Australia"
       },
       "actual_away_team": {
-        "name": "Group G 2nd Place",
-        "code": "2G",
-        "source": "Group G 2nd Place"
+        "name": "Egypt",
+        "code": "EGY",
+        "source": "Egypt"
       },
       "home_goals": 0,
       "away_goals": 0,
