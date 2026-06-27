@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27T03:16:11.968605+00:00",
+    "last_updated": "2026-06-27T03:31:53.826583+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 64,
     "total_matches": 104,
@@ -1430,8 +1430,8 @@
         "source": "Belgium"
       },
       "home_goals": 0,
-      "away_goals": 0,
-      "winner_code": null,
+      "away_goals": 1,
+      "winner_code": "BEL",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760477",
