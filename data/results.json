@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27T03:10:53.697596+00:00",
+    "last_updated": "2026-06-27T03:16:11.968605+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 64,
     "total_matches": 104,
@@ -1396,8 +1396,8 @@
         "source": "Iran"
       },
       "home_goals": 1,
-      "away_goals": 0,
-      "winner_code": "EGY",
+      "away_goals": 1,
+      "winner_code": null,
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760476",
