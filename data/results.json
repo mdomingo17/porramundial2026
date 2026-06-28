@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-28T01:30:14.686387+00:00",
+    "last_updated": "2026-06-28T01:35:27.931598+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 69,
+    "completed_matches": 70,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2248,7 +2248,7 @@
       "home_goals": 3,
       "away_goals": 1,
       "winner_code": "COD",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760482",
       "kickoff": "2026-06-27T23:30Z"
@@ -2701,9 +2701,9 @@
         "source": "England"
       },
       "actual_away_team": {
-        "name": "Third Place Group E/H/I/J/K",
-        "code": "3RD",
-        "source": "Third Place Group E/H/I/J/K"
+        "name": "Congo DR",
+        "code": "COD",
+        "source": "Congo DR"
       },
       "home_goals": 0,
       "away_goals": 0,
@@ -2733,9 +2733,9 @@
         "source": "Belgium"
       },
       "actual_away_team": {
-        "name": "Third Place Group A/E/H/I/J",
-        "code": "3RD",
-        "source": "Third Place Group A/E/H/I/J"
+        "name": "Senegal",
+        "code": "SEN",
+        "source": "Senegal"
       },
       "home_goals": 0,
       "away_goals": 0,
@@ -2824,9 +2824,9 @@
         "source": "Group L 2nd Place"
       },
       "actual_home_team": {
-        "name": "Group K 2nd Place",
-        "code": "2K",
-        "source": "Group K 2nd Place"
+        "name": "Portugal",
+        "code": "POR",
+        "source": "Portugal"
       },
       "actual_away_team": {
         "name": "Croatia",
@@ -2952,9 +2952,9 @@
         "source": "Third Place Group D/E/I/J/L"
       },
       "actual_home_team": {
-        "name": "Group K Winner",
-        "code": "1K",
-        "source": "Group K Winner"
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
       },
       "actual_away_team": {
         "name": "Ghana",
