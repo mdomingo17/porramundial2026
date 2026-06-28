@@ -781,8 +781,11 @@ function scorePredictionAgainstMatch(prediction, actualMatch, stage, predictedHo
   const partialRule = stageCfg.goal_difference_deviation_adjustment || {};
   const maxDeviation = Number(partialRule.max_deviation || 1);
 
-  // En empates, 1-1 vs 2-2 no debe contar como "diferencia exacta" completa.
-  // Cuenta como diferencia parcial si ambos marcadores se desvían 1 gol.
+  // Regla correcta:
+  // - Si es empate exacto, cuenta como exacto completo.
+  // - Si es empate no exacto, no cuenta como diferencia exacta completa.
+  //   Ejemplo: 1-1 vs 2-2 = 1X2 + diferencia parcial.
+  // - En victorias/derrotas mantenemos el ajuste simétrico por desviación de 1 gol de margen.
   const drawPartialDiff =
     bothDraw &&
     !exact &&
