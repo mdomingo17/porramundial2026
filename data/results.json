@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-28T01:25:00.205788+00:00",
+    "last_updated": "2026-06-28T01:30:14.686387+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 68,
+    "completed_matches": 69,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2214,7 +2214,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760481",
       "kickoff": "2026-06-27T23:30Z"
