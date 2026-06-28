@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-27T23:45:24.436756+00:00",
+    "last_updated": "2026-06-28T01:04:05.882257+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 68,
     "total_matches": 104,
@@ -2245,9 +2245,9 @@
         "code": "UZB",
         "source": "Uzbekistan"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 1,
-      "winner_code": "UZB",
+      "winner_code": null,
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760482",
