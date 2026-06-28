@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-28T02:33:27.992747+00:00",
+    "last_updated": "2026-06-28T02:49:17.469180+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 70,
     "total_matches": 104,
@@ -2007,9 +2007,9 @@
         "code": "AUT",
         "source": "Austria"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 1,
-      "winner_code": "AUT",
+      "winner_code": null,
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760484",
