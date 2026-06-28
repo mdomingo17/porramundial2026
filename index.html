@@ -794,7 +794,9 @@ function scorePredictionAgainstMatch(prediction, actualMatch, stage, predictedHo
     Math.abs(predHG - actualHG) === maxDeviation &&
     Math.abs(predAG - actualAG) === maxDeviation;
 
-  const correctDiff = !bothDraw && predictedDiff === actualDiff;
+  // En empates exactos, también cuenta la diferencia completa.
+  // En empates no exactos, no cuenta como diferencia completa aunque ambos tengan diferencia 0.
+  const correctDiff = exact || (!bothDraw && predictedDiff === actualDiff);
 
   const partialDiff =
     !correctDiff &&
