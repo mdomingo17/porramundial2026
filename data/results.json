@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-28T03:26:10.799726+00:00",
+    "last_updated": "2026-06-28T03:41:59.609840+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 70,
     "total_matches": 104,
@@ -2042,7 +2042,7 @@
         "source": "Argentina"
       },
       "home_goals": 1,
-      "away_goals": 2,
+      "away_goals": 3,
       "winner_code": "ARG",
       "status": "live",
       "source": "ESPN public scoreboard",
