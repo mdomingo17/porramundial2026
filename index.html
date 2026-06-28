@@ -495,7 +495,7 @@
       <h1>MUNDIAL 2026</h1>
       <p class="subtitle">
         Clasificación de la porra. Ahora suma partidos de grupos, posiciones de grupo,
-        clasificados, eliminatorias y premios finales cuando haya datos disponibles.
+        clasificados, eliminatorias y premios finales cuando haya datos disponibles. En empates no exactos, 1-1 vs 2-2 suma diferencia parcial, no diferencia exacta.
       </p>
     </div>
   </section>
@@ -775,16 +775,33 @@ function scorePredictionAgainstMatch(prediction, actualMatch, stage, predictedHo
 
   const actualDiff = actualHG - actualAG;
   const predictedDiff = predHG - predAG;
-  const correctDiff = predictedDiff === actualDiff;
   const exact = predHG === actualHG && predAG === actualAG;
+  const bothDraw = actualOutcome === "X" && predictedOutcomeByScore === "X";
 
   const partialRule = stageCfg.goal_difference_deviation_adjustment || {};
+  const maxDeviation = Number(partialRule.max_deviation || 1);
+
+  // En empates, 1-1 vs 2-2 no debe contar como "diferencia exacta" completa.
+  // Cuenta como diferencia parcial si ambos marcadores se desvían 1 gol.
+  const drawPartialDiff =
+    bothDraw &&
+    !exact &&
+    partialRule.enabled &&
+    partialRule.requires_correct_outcome !== false &&
+    Math.abs(predHG - actualHG) === maxDeviation &&
+    Math.abs(predAG - actualAG) === maxDeviation;
+
+  const correctDiff = !bothDraw && predictedDiff === actualDiff;
+
   const partialDiff =
     !correctDiff &&
     correctOutcome &&
     partialRule.enabled &&
-    Math.abs(predictedDiff - actualDiff) === Number(partialRule.max_deviation || 1) &&
-    partialRule.requires_correct_outcome !== false;
+    partialRule.requires_correct_outcome !== false &&
+    (
+      drawPartialDiff ||
+      (!bothDraw && Math.abs(predictedDiff - actualDiff) === maxDeviation)
+    );
 
   let points = 0;
   if (correctOutcome) points += Number(stageCfg.correct_outcome_1x2 || 0);
