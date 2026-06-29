@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-29T19:00:40.798899+00:00",
+    "last_updated": "2026-06-29T19:06:01.572579+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 73,
+    "completed_matches": 74,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2516,7 +2516,7 @@
       "home_goals": 2,
       "away_goals": 1,
       "winner_code": "BRA",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760487",
       "kickoff": "2026-06-29T17:00Z"
@@ -3048,9 +3048,9 @@
         "source": "Round of 32 6 Winner"
       },
       "actual_home_team": {
-        "name": "Round of 32 4 Winner",
-        "code": "RD32",
-        "source": "Round of 32 4 Winner"
+        "name": "Brazil",
+        "code": "BRA",
+        "source": "Brazil"
       },
       "actual_away_team": {
         "name": "Round of 32 6 Winner",
