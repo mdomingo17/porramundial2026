@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-06-29T21:48:48.316634+00:00",
+    "last_updated": "2026-06-29T23:33:09.231978+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 74,
+    "completed_matches": 75,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2547,8 +2547,8 @@
       },
       "home_goals": 1,
       "away_goals": 1,
-      "winner_code": null,
-      "status": "live",
+      "winner_code": "PAR",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760489",
       "kickoff": "2026-06-29T20:30Z"
@@ -3016,9 +3016,9 @@
         "source": "Round of 32 5 Winner"
       },
       "actual_home_team": {
-        "name": "Round of 32 2 Winner",
-        "code": "RD32",
-        "source": "Round of 32 2 Winner"
+        "name": "Paraguay",
+        "code": "PAR",
+        "source": "Paraguay"
       },
       "actual_away_team": {
         "name": "Round of 32 5 Winner",
