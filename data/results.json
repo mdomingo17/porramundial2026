@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-30T21:02:50.711392+00:00",
+    "last_updated": "2026-06-30T21:50:17.681857+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 77,
     "total_matches": 104,
@@ -2641,9 +2641,9 @@
         "code": "SWE",
         "source": "Sweden"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0,
-      "winner_code": null,
+      "winner_code": "FRA",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760492",
