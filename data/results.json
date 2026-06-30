@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-06-30T01:02:21.324125+00:00",
+    "last_updated": "2026-06-30T02:36:53.962861+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 75,
     "total_matches": 104,
@@ -2577,9 +2577,9 @@
         "code": "MAR",
         "source": "Morocco"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0,
-      "winner_code": null,
+      "winner_code": "NED",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760488",
