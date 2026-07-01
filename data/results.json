@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T22:45:41.757821+00:00",
+    "last_updated": "2026-07-01T22:50:57.739599+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 80,
+    "completed_matches": 81,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2740,7 +2740,7 @@
       "home_goals": 3,
       "away_goals": 2,
       "winner_code": "BEL",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760493",
       "kickoff": "2026-07-01T20:00Z"
