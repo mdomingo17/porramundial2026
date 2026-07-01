@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T17:52:31.615334+00:00",
+    "last_updated": "2026-07-01T18:03:04.242719+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 79,
+    "completed_matches": 80,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2708,7 +2708,7 @@
       "home_goals": 2,
       "away_goals": 1,
       "winner_code": "ENG",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760495",
       "kickoff": "2026-07-01T16:00Z"
@@ -3068,7 +3068,7 @@
     {
       "match_id": "ESPN_760505",
       "source_id": "760505",
-      "stage": "round_of_32",
+      "stage": "round_of_16",
       "home_team": {
         "name": "Round of 32 7 Winner",
         "code": "RD32",
@@ -3085,9 +3085,9 @@
         "source": "Mexico"
       },
       "actual_away_team": {
-        "name": "Round of 32 8 Winner",
-        "code": "RD32",
-        "source": "Round of 32 8 Winner"
+        "name": "England",
+        "code": "ENG",
+        "source": "England"
       },
       "home_goals": 0,
       "away_goals": 0,
