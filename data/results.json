@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T21:16:26.963463+00:00",
+    "last_updated": "2026-07-01T21:53:11.544194+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 80,
     "total_matches": 104,
@@ -2737,9 +2737,9 @@
         "code": "SEN",
         "source": "Senegal"
       },
-      "home_goals": 0,
+      "home_goals": 2,
       "away_goals": 2,
-      "winner_code": "SEN",
+      "winner_code": null,
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760493",
