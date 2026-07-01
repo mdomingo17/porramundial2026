@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T02:02:12.501638+00:00",
+    "last_updated": "2026-07-01T02:23:21.862070+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 78,
     "total_matches": 104,
@@ -2673,9 +2673,9 @@
         "code": "ECU",
         "source": "Ecuador"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0,
-      "winner_code": null,
+      "winner_code": "MEX",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760491",
