@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T02:34:03.472715+00:00",
+    "last_updated": "2026-07-01T04:03:39.927054+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 78,
+    "completed_matches": 79,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2676,7 +2676,7 @@
       "home_goals": 2,
       "away_goals": 0,
       "winner_code": "MEX",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760491",
       "kickoff": "2026-07-01T02:00Z"
