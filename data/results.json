@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-01T22:50:57.739599+00:00",
+    "last_updated": "2026-07-02T00:04:25.209246+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 81,
     "total_matches": 104,
@@ -2772,7 +2772,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "scheduled",
+      "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760494",
       "kickoff": "2026-07-02T00:00Z"
@@ -3149,9 +3149,9 @@
         "source": "Round of 32 9 Winner"
       },
       "actual_away_team": {
-        "name": "Round of 32 10 Winner",
-        "code": "RD32",
-        "source": "Round of 32 10 Winner"
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Belgium"
       },
       "home_goals": 0,
       "away_goals": 0,
