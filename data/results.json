@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-02T00:46:25.541486+00:00",
+    "last_updated": "2026-07-02T01:49:22.153421+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 81,
     "total_matches": 104,
@@ -2769,7 +2769,7 @@
         "code": "BIH",
         "source": "Bosnia-Herzegovina"
       },
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0,
       "winner_code": "USA",
       "status": "live",
