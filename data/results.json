@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T00:56:00.629203+00:00",
+    "last_updated": "2026-07-03T01:11:55.838127+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 83,
+    "completed_matches": 84,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2836,7 +2836,7 @@
       "home_goals": 2,
       "away_goals": 1,
       "winner_code": "POR",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760496",
       "kickoff": "2026-07-02T23:00Z"
@@ -3100,7 +3100,7 @@
     {
       "match_id": "ESPN_760506",
       "source_id": "760506",
-      "stage": "round_of_32",
+      "stage": "round_of_16",
       "home_team": {
         "name": "Round of 32 11 Winner",
         "code": "RD32",
@@ -3112,9 +3112,9 @@
         "source": "Round of 32 12 Winner"
       },
       "actual_home_team": {
-        "name": "Round of 32 11 Winner",
-        "code": "RD32",
-        "source": "Round of 32 11 Winner"
+        "name": "Portugal",
+        "code": "POR",
+        "source": "Portugal"
       },
       "actual_away_team": {
         "name": "Spain",
