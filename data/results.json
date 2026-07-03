@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T00:29:45.738306+00:00",
+    "last_updated": "2026-07-03T00:56:00.629203+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 83,
     "total_matches": 104,
@@ -2833,9 +2833,9 @@
         "code": "CRO",
         "source": "Croatia"
       },
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 1,
-      "winner_code": null,
+      "winner_code": "POR",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760496",
