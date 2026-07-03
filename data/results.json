@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T04:57:50.025347+00:00",
+    "last_updated": "2026-07-03T18:01:56.622365+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 85,
     "total_matches": 104,
@@ -2900,7 +2900,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "scheduled",
+      "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760499",
       "kickoff": "2026-07-03T18:00Z"
@@ -3208,9 +3208,9 @@
         "source": "Round of 32 15 Winner"
       },
       "actual_home_team": {
-        "name": "Round of 32 13 Winner",
-        "code": "RD32",
-        "source": "Round of 32 13 Winner"
+        "name": "Switzerland",
+        "code": "SUI",
+        "source": "Switzerland"
       },
       "actual_away_team": {
         "name": "Round of 32 15 Winner",
