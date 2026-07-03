@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T04:10:43.767732+00:00",
+    "last_updated": "2026-07-03T04:57:50.025347+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 84,
+    "completed_matches": 85,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2868,7 +2868,7 @@
       "home_goals": 2,
       "away_goals": 0,
       "winner_code": "SUI",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760498",
       "kickoff": "2026-07-03T03:00Z"
