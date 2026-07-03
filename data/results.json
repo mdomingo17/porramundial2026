@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T03:13:03.381390+00:00",
+    "last_updated": "2026-07-03T04:10:43.767732+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 84,
     "total_matches": 104,
@@ -2865,7 +2865,7 @@
         "code": "ALG",
         "source": "Algeria"
       },
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 0,
       "winner_code": "SUI",
       "status": "live",
