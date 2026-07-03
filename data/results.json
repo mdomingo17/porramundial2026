@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T18:17:44.808034+00:00",
+    "last_updated": "2026-07-03T19:20:42.589198+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 85,
     "total_matches": 104,
@@ -2897,9 +2897,9 @@
         "code": "EGY",
         "source": "Egypt"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 1,
-      "winner_code": "EGY",
+      "winner_code": null,
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760499",
