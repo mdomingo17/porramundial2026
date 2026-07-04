@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-03T23:21:50.668154+00:00",
+    "last_updated": "2026-07-04T00:09:15.325072+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 86,
     "total_matches": 104,
@@ -2929,9 +2929,9 @@
         "code": "CPV",
         "source": "Cape Verde"
       },
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 1,
-      "winner_code": null,
+      "winner_code": "ARG",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760500",
