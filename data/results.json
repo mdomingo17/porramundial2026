@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-04T00:46:03.245386+00:00",
+    "last_updated": "2026-07-04T01:33:11.895087+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 87,
     "total_matches": 104,
@@ -2964,7 +2964,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "scheduled",
+      "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760501",
       "kickoff": "2026-07-04T01:30Z"
