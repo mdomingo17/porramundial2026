@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-04T01:33:11.895087+00:00",
+    "last_updated": "2026-07-04T01:48:59.137802+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 87,
     "total_matches": 104,
@@ -2961,9 +2961,9 @@
         "code": "GHA",
         "source": "Ghana"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 0,
-      "winner_code": null,
+      "winner_code": "COL",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760501",
