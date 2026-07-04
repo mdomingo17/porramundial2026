@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-04T22:36:58.352631+00:00",
+    "last_updated": "2026-07-04T23:08:26.529722+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 89,
+    "completed_matches": 90,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -3028,7 +3028,7 @@
       "home_goals": 0,
       "away_goals": 1,
       "winner_code": "FRA",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760503",
       "kickoff": "2026-07-04T21:00Z"
@@ -3228,7 +3228,7 @@
     {
       "match_id": "ESPN_760510",
       "source_id": "760510",
-      "stage": "round_of_16",
+      "stage": "quarterfinals",
       "home_team": {
         "name": "Round of 16 1 Winner",
         "code": "RD16 W1",
@@ -3240,9 +3240,9 @@
         "source": "Round of 16 2 Winner"
       },
       "actual_home_team": {
-        "name": "Round of 16 1 Winner",
-        "code": "RD16 W1",
-        "source": "Round of 16 1 Winner"
+        "name": "France",
+        "code": "FRA",
+        "source": "France"
       },
       "actual_away_team": {
         "name": "Morocco",
