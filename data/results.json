@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-04T01:48:59.137802+00:00",
+    "last_updated": "2026-07-04T03:34:12.594182+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 87,
+    "completed_matches": 88,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -2964,7 +2964,7 @@
       "home_goals": 1,
       "away_goals": 0,
       "winner_code": "COL",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760501",
       "kickoff": "2026-07-04T01:30Z"
@@ -3196,7 +3196,7 @@
     {
       "match_id": "ESPN_760508",
       "source_id": "760508",
-      "stage": "round_of_32",
+      "stage": "round_of_16",
       "home_team": {
         "name": "Round of 32 13 Winner",
         "code": "RD32",
@@ -3213,9 +3213,9 @@
         "source": "Switzerland"
       },
       "actual_away_team": {
-        "name": "Round of 32 15 Winner",
-        "code": "RD32",
-        "source": "Round of 32 15 Winner"
+        "name": "Colombia",
+        "code": "COL",
+        "source": "Colombia"
       },
       "home_goals": 0,
       "away_goals": 0,
