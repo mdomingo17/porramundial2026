@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-05T21:54:58.243741+00:00",
+    "last_updated": "2026-07-05T22:05:27.956516+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 90,
+    "completed_matches": 91,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -3057,10 +3057,10 @@
         "code": "NOR",
         "source": "Norway"
       },
-      "home_goals": 0,
+      "home_goals": 1,
       "away_goals": 2,
       "winner_code": "NOR",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760504",
       "kickoff": "2026-07-05T20:00Z"
