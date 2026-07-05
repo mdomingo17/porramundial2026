@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-05T21:44:29.137483+00:00",
+    "last_updated": "2026-07-05T21:54:58.243741+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 90,
     "total_matches": 104,
@@ -3058,7 +3058,7 @@
         "source": "Norway"
       },
       "home_goals": 0,
-      "away_goals": 1,
+      "away_goals": 2,
       "winner_code": "NOR",
       "status": "live",
       "source": "ESPN public scoreboard",
