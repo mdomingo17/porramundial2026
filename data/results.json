@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-05T22:05:27.956516+00:00",
+    "last_updated": "2026-07-05T23:19:26.680174+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 91,
     "total_matches": 104,
@@ -3095,7 +3095,7 @@
       "status": "scheduled",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760505",
-      "kickoff": "2026-07-06T00:00Z"
+      "kickoff": "2026-07-06T01:00Z"
     },
     {
       "match_id": "ESPN_760506",
@@ -3304,9 +3304,9 @@
         "source": "Round of 16 4 Winner"
       },
       "actual_home_team": {
-        "name": "Round of 16 3 Winner",
-        "code": "RD16 W3",
-        "source": "Round of 16 3 Winner"
+        "name": "Norway",
+        "code": "NOR",
+        "source": "Norway"
       },
       "actual_away_team": {
         "name": "Round of 16 4 Winner",
