@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-07T18:10:04.161483+00:00",
+    "last_updated": "2026-07-07T20:05:58.331643+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 95,
     "total_matches": 104,
@@ -3220,7 +3220,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "scheduled",
+      "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760508",
       "kickoff": "2026-07-07T20:00Z"
@@ -3336,9 +3336,9 @@
         "source": "Round of 16 8 Winner"
       },
       "actual_home_team": {
-        "name": "Round of 16 7 Winner",
-        "code": "RD16 W7",
-        "source": "Round of 16 7 Winner"
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
       },
       "actual_away_team": {
         "name": "Round of 16 8 Winner",
