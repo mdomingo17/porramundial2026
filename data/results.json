@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-07T01:57:11.660140+00:00",
+    "last_updated": "2026-07-07T02:02:34.005301+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 93,
+    "completed_matches": 94,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -3156,7 +3156,7 @@
       "home_goals": 1,
       "away_goals": 4,
       "winner_code": "BEL",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760507",
       "kickoff": "2026-07-07T00:00Z"
@@ -3260,7 +3260,7 @@
     {
       "match_id": "ESPN_760511",
       "source_id": "760511",
-      "stage": "round_of_16",
+      "stage": "quarterfinals",
       "home_team": {
         "name": "Round of 16 5 Winner",
         "code": "RD16 W5",
@@ -3277,9 +3277,9 @@
         "source": "Spain"
       },
       "actual_away_team": {
-        "name": "Round of 16 6 Winner",
-        "code": "RD16 W6",
-        "source": "Round of 16 6 Winner"
+        "name": "Belgium",
+        "code": "BEL",
+        "source": "Belgium"
       },
       "home_goals": 0,
       "away_goals": 0,
