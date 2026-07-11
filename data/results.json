@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-11T23:11:33.099998+00:00",
+    "last_updated": "2026-07-11T23:48:20.832788+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 98,
+    "completed_matches": 99,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -3316,7 +3316,7 @@
       "home_goals": 1,
       "away_goals": 2,
       "winner_code": "ENG",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760512",
       "kickoff": "2026-07-11T21:00Z"
@@ -3400,9 +3400,9 @@
         "source": "Quarterfinal 4 Winner"
       },
       "actual_home_team": {
-        "name": "Quarterfinal 3 Winner",
-        "code": "QFW3",
-        "source": "Quarterfinal 3 Winner"
+        "name": "England",
+        "code": "ENG",
+        "source": "England"
       },
       "actual_away_team": {
         "name": "Quarterfinal 4 Winner",
