@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-12T02:34:04.977478+00:00",
+    "last_updated": "2026-07-12T03:37:45.432048+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 99,
     "total_matches": 104,
@@ -3345,9 +3345,9 @@
         "code": "SUI",
         "source": "Switzerland"
       },
-      "home_goals": 1,
+      "home_goals": 2,
       "away_goals": 1,
-      "winner_code": null,
+      "winner_code": "ARG",
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760513",
