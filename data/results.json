@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-12T03:43:01.722322+00:00",
+    "last_updated": "2026-07-12T03:48:14.754095+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 99,
+    "completed_matches": 100,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -3348,7 +3348,7 @@
       "home_goals": 3,
       "away_goals": 1,
       "winner_code": "ARG",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760513",
       "kickoff": "2026-07-12T01:00Z"
@@ -3388,7 +3388,7 @@
     {
       "match_id": "ESPN_760515",
       "source_id": "760515",
-      "stage": "quarterfinals",
+      "stage": "semifinals",
       "home_team": {
         "name": "Quarterfinal 3 Winner",
         "code": "QFW3",
@@ -3405,9 +3405,9 @@
         "source": "England"
       },
       "actual_away_team": {
-        "name": "Quarterfinal 4 Winner",
-        "code": "QW4",
-        "source": "Quarterfinal 4 Winner"
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
       },
       "home_goals": 0,
       "away_goals": 0,
