@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-14T21:04:33.175518+00:00",
+    "last_updated": "2026-07-15T19:04:56.059027+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 101,
     "total_matches": 104,
@@ -3412,7 +3412,7 @@
       "home_goals": 0,
       "away_goals": 0,
       "winner_code": null,
-      "status": "scheduled",
+      "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760515",
       "kickoff": "2026-07-15T19:00Z"
@@ -3432,9 +3432,9 @@
         "source": "Semifinal 2 Loser"
       },
       "actual_home_team": {
-        "name": "Semifinal 1 Loser",
-        "code": "SF L1",
-        "source": "Semifinal 1 Loser"
+        "name": "France",
+        "code": "FRA",
+        "source": "France"
       },
       "actual_away_team": {
         "name": "Semifinal 2 Loser",
@@ -3464,9 +3464,9 @@
         "source": "Semifinal 2 Winner"
       },
       "actual_home_team": {
-        "name": "Semifinal 1 Winner",
-        "code": "SFW1",
-        "source": "Semifinal 1 Winner"
+        "name": "Spain",
+        "code": "ESP",
+        "source": "Spain"
       },
       "actual_away_team": {
         "name": "Semifinal 2 Winner",
