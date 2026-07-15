@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-15T20:55:29.691588+00:00",
+    "last_updated": "2026-07-15T21:05:59.077577+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 101,
+    "completed_matches": 102,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -3412,7 +3412,7 @@
       "home_goals": 1,
       "away_goals": 2,
       "winner_code": "ARG",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760515",
       "kickoff": "2026-07-15T19:00Z"
@@ -3420,7 +3420,7 @@
     {
       "match_id": "ESPN_760516",
       "source_id": "760516",
-      "stage": "semifinals",
+      "stage": "third_place",
       "home_team": {
         "name": "Semifinal 1 Loser",
         "code": "SF L1",
@@ -3437,9 +3437,9 @@
         "source": "France"
       },
       "actual_away_team": {
-        "name": "Semifinal 2 Loser",
-        "code": "SF L2",
-        "source": "Semifinal 2 Loser"
+        "name": "England",
+        "code": "ENG",
+        "source": "England"
       },
       "home_goals": 0,
       "away_goals": 0,
@@ -3452,7 +3452,7 @@
     {
       "match_id": "ESPN_760517",
       "source_id": "760517",
-      "stage": "semifinals",
+      "stage": "final",
       "home_team": {
         "name": "Semifinal 1 Winner",
         "code": "SFW1",
@@ -3469,9 +3469,9 @@
         "source": "Spain"
       },
       "actual_away_team": {
-        "name": "Semifinal 2 Winner",
-        "code": "SFW2",
-        "source": "Semifinal 2 Winner"
+        "name": "Argentina",
+        "code": "ARG",
+        "source": "Argentina"
       },
       "home_goals": 0,
       "away_goals": 0,
