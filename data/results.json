@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-15T20:18:38.925489+00:00",
+    "last_updated": "2026-07-15T20:50:06.770664+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
     "completed_matches": 101,
     "total_matches": 104,
@@ -3410,8 +3410,8 @@
         "source": "Argentina"
       },
       "home_goals": 1,
-      "away_goals": 0,
-      "winner_code": "ENG",
+      "away_goals": 1,
+      "winner_code": null,
       "status": "live",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760515",
