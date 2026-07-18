@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-07-18T22:53:39.231194+00:00",
+    "last_updated": "2026-07-18T23:04:11.185810+00:00",
     "source": "ESPN public scoreboard via GitHub Actions",
-    "completed_matches": 102,
+    "completed_matches": 103,
     "total_matches": 104,
     "group_matches": 72,
     "knockout_matches": 32,
@@ -3441,10 +3441,10 @@
         "code": "ENG",
         "source": "England"
       },
-      "home_goals": 3,
-      "away_goals": 5,
+      "home_goals": 4,
+      "away_goals": 6,
       "winner_code": "ENG",
-      "status": "live",
+      "status": "finished",
       "source": "ESPN public scoreboard",
       "espn_event_id": "760516",
       "kickoff": "2026-07-18T21:00Z"
